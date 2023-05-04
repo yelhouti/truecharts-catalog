@@ -4,6 +4,11 @@
 
 
 
+## [lancache-dns-4.0.10](https://github.com/truecharts/charts/compare/lancache-dns-4.0.9...lancache-dns-4.0.10) (2023-05-04)
+
+
+
+
 ## [lancache-dns-4.0.9](https://github.com/truecharts/charts/compare/lancache-dns-4.0.8...lancache-dns-4.0.9) (2023-05-03)
 
 ### Chore
@@ -92,8 +97,3 @@
 
 ## [lancache-dns-3.0.11](https://github.com/truecharts/charts/compare/lancache-dns-3.0.10...lancache-dns-3.0.11) (2023-02-10)
 
-### Fix
-
-- ensure new helm deps repo is used in latest releases as well.
-  
-  
