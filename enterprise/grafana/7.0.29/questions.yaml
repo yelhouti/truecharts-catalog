@@ -1245,20 +1245,6 @@ questions:
                               type: boolean
                               default: false
                           # TODO: Rule List section
-                    - variable: prometheusRule
-                      label: PrometheusRule
-                      description: Enable and configure Prometheus Rules for the App.
-                      schema:
-                        additional_attrs: true
-                        type: dict
-                        attrs:
-                          - variable: enabled
-                            label: Enabled
-                            description: Enable Prometheus Metrics
-                            schema:
-                              type: boolean
-                              default: false
-                          # TODO: Rule List section
 #  - variable: horizontalPodAutoscaler
 #    group: Advanced
 #    label: (Advanced) Horizontal Pod Autoscaler
