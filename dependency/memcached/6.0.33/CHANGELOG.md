@@ -13,6 +13,15 @@
   
 
 
+## [memcached-6.0.33](https://github.com/truecharts/charts/compare/memcached-6.0.32...memcached-6.0.33) (2023-05-05)
+
+### Chore
+
+- update helm chart common to 12.6.6 ([#8785](https://github.com/truecharts/charts/issues/8785))
+  
+  
+
+
 ## [memcached-6.0.32](https://github.com/truecharts/charts/compare/memcached-6.0.31...memcached-6.0.32) (2023-05-03)
 
 ### Chore
@@ -88,12 +97,3 @@
 ## [memcached-6.0.24](https://github.com/truecharts/charts/compare/memcached-6.0.23...memcached-6.0.24) (2023-04-21)
 
 
-
-
-## [memcached-6.0.23](https://github.com/truecharts/charts/compare/memcached-6.0.22...memcached-6.0.23) (2023-04-18)
-
-### Chore
-
-- update helm chart common to 12.4.21 ([#8086](https://github.com/truecharts/charts/issues/8086))
-  
-  

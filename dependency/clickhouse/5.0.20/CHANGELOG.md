@@ -13,6 +13,15 @@
   
 
 
+## [clickhouse-5.0.20](https://github.com/truecharts/charts/compare/clickhouse-5.0.19...clickhouse-5.0.20) (2023-05-05)
+
+### Chore
+
+- update helm chart common to 12.6.6 ([#8785](https://github.com/truecharts/charts/issues/8785))
+  
+  
+
+
 ## [clickhouse-5.0.19](https://github.com/truecharts/charts/compare/clickhouse-5.0.18...clickhouse-5.0.19) (2023-05-01)
 
 ### Chore
@@ -86,14 +95,5 @@
 ### Chore
 
 - update helm chart common to 12.4.20 ([#8064](https://github.com/truecharts/charts/issues/8064))
-  
-  
-
-
-## [clickhouse-5.0.10](https://github.com/truecharts/charts/compare/clickhouse-5.0.9...clickhouse-5.0.10) (2023-04-15)
-
-### Chore
-
-- update helm chart common to 12.4.15 ([#8050](https://github.com/truecharts/charts/issues/8050))
   
   
