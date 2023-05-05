@@ -22,6 +22,15 @@
   
 
 
+## [cert-manager-1.0.29](https://github.com/truecharts/charts/compare/cert-manager-1.0.28...cert-manager-1.0.29) (2023-05-05)
+
+### Chore
+
+- update container image tccr.io/truecharts/scratch to latest ([#8779](https://github.com/truecharts/charts/issues/8779))
+  
+  
+
+
 ## [cert-manager-1.0.28](https://github.com/truecharts/charts/compare/cert-manager-1.0.27...cert-manager-1.0.28) (2023-05-03)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 
 ## [cert-manager-1.0.21](https://github.com/truecharts/charts/compare/cert-manager-1.0.20...cert-manager-1.0.21) (2023-04-16)
-
-### Chore
-
-- update helm general non-major ([#8061](https://github.com/truecharts/charts/issues/8061))
-  
-  
-
-
-## [cert-manager-1.0.20](https://github.com/truecharts/charts/compare/cert-manager-1.0.19...cert-manager-1.0.20) (2023-04-15)
 
 ### Chore

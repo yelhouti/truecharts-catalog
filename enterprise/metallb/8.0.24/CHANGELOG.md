@@ -22,6 +22,15 @@
   
 
 
+## [metallb-8.0.24](https://github.com/truecharts/charts/compare/metallb-8.0.23...metallb-8.0.24) (2023-05-05)
+
+### Chore
+
+- update container image tccr.io/truecharts/scratch to latest ([#8779](https://github.com/truecharts/charts/issues/8779))
+  
+  
+
+
 ## [metallb-8.0.23](https://github.com/truecharts/charts/compare/metallb-8.0.22...metallb-8.0.23) (2023-05-03)
 
 ### Chore
@@ -86,14 +95,5 @@
 ### Chore
 
 - update helm general non-major ([#8087](https://github.com/truecharts/charts/issues/8087))
-  
-  
-
-
-## [metallb-8.0.15](https://github.com/truecharts/charts/compare/metallb-8.0.14...metallb-8.0.15) (2023-04-16)
-
-### Chore
-
-- update helm general non-major ([#8071](https://github.com/truecharts/charts/issues/8071))
   
   
