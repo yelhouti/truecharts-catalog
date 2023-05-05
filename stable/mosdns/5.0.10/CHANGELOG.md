@@ -4,6 +4,15 @@
 
 
 
+## [mosdns-5.0.10](https://github.com/truecharts/charts/compare/mosdns-5.0.9...mosdns-5.0.10) (2023-05-05)
+
+### Chore
+
+- update container image tccr.io/truecharts/mosdns to 5.1.3 ([#8769](https://github.com/truecharts/charts/issues/8769))
+  
+  
+
+
 ## [mosdns-5.0.9](https://github.com/truecharts/charts/compare/mosdns-5.0.8...mosdns-5.0.9) (2023-05-03)
 
 ### Chore
@@ -86,14 +95,5 @@
 ### Chore
 
 - BREAKING CHANGE migrate to new common part 2 ([#7992](https://github.com/truecharts/charts/issues/7992))
-  
-  
-
-
-## [mosdns-4.0.15](https://github.com/truecharts/charts/compare/mosdns-4.0.14...mosdns-4.0.15) (2023-02-25)
-
-### Chore
-
-- update container image tccr.io/truecharts/mosdns to v5.1.1
   
   
