@@ -13,6 +13,15 @@
   
 
 
+## [postgresql-13.0.14](https://github.com/truecharts/charts/compare/postgresql-13.0.13...postgresql-13.0.14) (2023-05-05)
+
+### Chore
+
+- update container image tccr.io/truecharts/postgresql to 14.7.0 ([#8775](https://github.com/truecharts/charts/issues/8775))
+  
+  
+
+
 ## [postgresql-13.0.13](https://github.com/truecharts/charts/compare/postgresql-13.0.12...postgresql-13.0.13) (2023-05-03)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 
 ## [postgresql-13.0.5](https://github.com/truecharts/charts/compare/postgresql-13.0.4...postgresql-13.0.5) (2023-04-16)
-
-### Chore
-
-- update helm general non-major ([#8061](https://github.com/truecharts/charts/issues/8061))
-  
-  
-
-
-## [postgresql-13.0.4](https://github.com/truecharts/charts/compare/postgresql-13.0.3...postgresql-13.0.4) (2023-04-15)
 
 ### Chore
