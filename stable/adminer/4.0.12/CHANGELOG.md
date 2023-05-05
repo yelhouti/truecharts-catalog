@@ -4,6 +4,15 @@
 
 
 
+## [adminer-4.0.12](https://github.com/truecharts/charts/compare/adminer-4.0.11...adminer-4.0.12) (2023-05-05)
+
+### Chore
+
+- update container image tccr.io/truecharts/adminer to latest ([#8770](https://github.com/truecharts/charts/issues/8770))
+  
+  
+
+
 ## [adminer-4.0.11](https://github.com/truecharts/charts/compare/adminer-4.0.10...adminer-4.0.11) (2023-05-03)
 
 ### Chore
@@ -86,14 +95,5 @@
 ### Chore
 
 - bump common on the 222 ([#7959](https://github.com/truecharts/charts/issues/7959))
-  
-  
-
-
-## [adminer-4.0.1](https://github.com/truecharts/charts/compare/adminer-4.0.0...adminer-4.0.1) (2023-04-11)
-
-### Fix
-
-- bump common on the 222 ([#7927](https://github.com/truecharts/charts/issues/7927))
   
   
