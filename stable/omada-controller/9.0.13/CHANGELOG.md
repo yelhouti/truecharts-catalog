@@ -22,6 +22,15 @@
   
 
 
+## [omada-controller-9.0.13](https://github.com/truecharts/charts/compare/omada-controller-9.0.12...omada-controller-9.0.13) (2023-05-05)
+
+### Chore
+
+- update container image tccr.io/truecharts/omada-controller to 5.9.0 ([#8774](https://github.com/truecharts/charts/issues/8774))
+  
+  
+
+
 ## [omada-controller-9.0.12](https://github.com/truecharts/charts/compare/omada-controller-9.0.11...omada-controller-9.0.12) (2023-05-03)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 
 ## [omada-controller-9.0.5](https://github.com/truecharts/charts/compare/omada-controller-9.0.4...omada-controller-9.0.5) (2023-04-16)
-
-### Chore
-
-- update helm general non-major ([#8061](https://github.com/truecharts/charts/issues/8061))
-  
-  
-
-
-## [omada-controller-9.0.4](https://github.com/truecharts/charts/compare/omada-controller-9.0.3...omada-controller-9.0.4) (2023-04-15)
 
 ### Chore
