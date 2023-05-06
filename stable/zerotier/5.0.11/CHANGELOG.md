@@ -4,6 +4,15 @@
 
 
 
+## [zerotier-5.0.11](https://github.com/truecharts/charts/compare/zerotier-5.0.10...zerotier-5.0.11) (2023-05-06)
+
+### Feat
+
+- Add podOptions in questions.yaml ([#8792](https://github.com/truecharts/charts/issues/8792))
+  
+  
+
+
 ## [zerotier-5.0.10](https://github.com/truecharts/charts/compare/zerotier-5.0.9...zerotier-5.0.10) (2023-05-05)
 
 ### Chore
@@ -88,12 +97,3 @@
 ## [zerotier-5.0.1](https://github.com/truecharts/charts/compare/zerotier-5.0.0...zerotier-5.0.1) (2023-04-14)
 
 
-
-
-## [zerotier-5.0.0](https://github.com/truecharts/charts/compare/zerotier-4.0.11...zerotier-5.0.0) (2023-04-14)
-
-### Chore
-
-- BREAKING CHANGE migrate to new common part 2 ([#7992](https://github.com/truecharts/charts/issues/7992))
-  
-  
