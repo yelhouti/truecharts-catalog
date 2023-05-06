@@ -4,6 +4,15 @@
 
 
 
+## [custom-app-8.0.4](https://github.com/truecharts/charts/compare/custom-app-8.0.3...custom-app-8.0.4) (2023-05-06)
+
+### Fix
+
+- allow service to be disabled
+  
+  
+
+
 ## [custom-app-8.0.3](https://github.com/truecharts/charts/compare/custom-app-8.0.2...custom-app-8.0.3) (2023-05-05)
 
 ### Chore
@@ -81,15 +90,6 @@
 
 
 ## [custom-app-7.0.19](https://github.com/truecharts/charts/compare/custom-app-7.0.18...custom-app-7.0.19) (2022-12-19)
-
-### Chore
-
-- update helm general non-major
-  
-  
-
-
-## [custom-app-7.0.18](https://github.com/truecharts/charts/compare/custom-app-7.0.17...custom-app-7.0.18) (2022-12-13)
 
 ### Chore
 
