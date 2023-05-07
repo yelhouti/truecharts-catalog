@@ -4,6 +4,15 @@
 
 
 
+## [n8n-8.0.13](https://github.com/truecharts/charts/compare/n8n-8.0.12...n8n-8.0.13) (2023-05-07)
+
+### Chore
+
+- update container image tccr.io/truecharts/n8n to v0.226.2 ([#8833](https://github.com/truecharts/charts/issues/8833))
+  
+  
+
+
 ## [n8n-8.0.12](https://github.com/truecharts/charts/compare/n8n-8.0.11...n8n-8.0.12) (2023-05-05)
 
 ### Chore
@@ -88,12 +97,3 @@
 ## [n8n-8.0.3](https://github.com/truecharts/charts/compare/n8n-8.0.2...n8n-8.0.3) (2023-04-14)
 
 
-
-
-## [n8n-8.0.2](https://github.com/truecharts/charts/compare/n8n-8.0.1...n8n-8.0.2) (2023-04-12)
-
-### Chore
-
-- bump common on the 222 ([#7959](https://github.com/truecharts/charts/issues/7959))
-  
-  
