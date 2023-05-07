@@ -4,6 +4,15 @@
 
 
 
+## [filebot-4.0.4](https://github.com/truecharts/charts/compare/filebot-4.0.3...filebot-4.0.4) (2023-05-07)
+
+### Chore
+
+- update container image tccr.io/truecharts/filebot to v23.04.2 ([#8818](https://github.com/truecharts/charts/issues/8818))
+  
+  
+
+
 ## [filebot-4.0.3](https://github.com/truecharts/charts/compare/filebot-4.0.2...filebot-4.0.3) (2023-05-05)
 
 ### Chore
@@ -85,15 +94,6 @@
 ### Chore
 
 - update container image tccr.io/truecharts/filebot to v23.01.3
-  
-  
-
-
-## [filebot-3.0.8](https://github.com/truecharts/charts/compare/filebot-3.0.7...filebot-3.0.8) (2023-01-11)
-
-### Chore
-
-- update container image tccr.io/truecharts/filebot to v23.01.2
   
   
 
