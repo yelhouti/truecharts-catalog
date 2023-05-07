@@ -13,6 +13,15 @@
   
 
 
+## [nextpvr-5.0.3](https://github.com/truecharts/charts/compare/nextpvr-5.0.2...nextpvr-5.0.3) (2023-05-07)
+
+### Chore
+
+- update container image tccr.io/truecharts/nextpvr to latest ([#8811](https://github.com/truecharts/charts/issues/8811))
+  
+  
+
+
 ## [nextpvr-5.0.2](https://github.com/truecharts/charts/compare/nextpvr-5.0.1...nextpvr-5.0.2) (2023-05-05)
 
 ### Chore
@@ -87,13 +96,4 @@
 
 
 ## [nextpvr-4.0.5](https://github.com/truecharts/charts/compare/nextpvr-4.0.4...nextpvr-4.0.5) (2022-12-25)
-
-### Chore
-
-- update helm general non-major
-  
-  
-
-
-## [nextpvr-4.0.4](https://github.com/truecharts/charts/compare/nextpvr-4.0.3...nextpvr-4.0.4) (2022-12-19)
 
