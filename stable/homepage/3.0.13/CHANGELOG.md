@@ -4,6 +4,15 @@
 
 
 
+## [homepage-3.0.13](https://github.com/truecharts/charts/compare/homepage-3.0.12...homepage-3.0.13) (2023-05-07)
+
+### Chore
+
+- update container image tccr.io/truecharts/homepage to v0.6.17 ([#8822](https://github.com/truecharts/charts/issues/8822))
+  
+  
+
+
 ## [homepage-3.0.12](https://github.com/truecharts/charts/compare/homepage-3.0.11...homepage-3.0.12) (2023-05-05)
 
 ### Chore
@@ -88,12 +97,3 @@
 
 ## [homepage-3.0.3](https://github.com/truecharts/charts/compare/homepage-3.0.2...homepage-3.0.3) (2023-04-14)
 
-
-
-
-## [homepage-3.0.2](https://github.com/truecharts/charts/compare/homepage-3.0.1...homepage-3.0.2) (2023-04-12)
-
-### Chore
-
-- bump common on the 222 ([#7959](https://github.com/truecharts/charts/issues/7959))
-  
