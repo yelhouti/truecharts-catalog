@@ -22,6 +22,15 @@
   
 
 
+## [anonaddy-13.0.4](https://github.com/truecharts/charts/compare/anonaddy-13.0.3...anonaddy-13.0.4) (2023-05-07)
+
+### Chore
+
+- update container image tccr.io/truecharts/anonaddy to v0.14.1 ([#8812](https://github.com/truecharts/charts/issues/8812))
+  
+  
+
+
 ## [anonaddy-13.0.3](https://github.com/truecharts/charts/compare/anonaddy-13.0.2...anonaddy-13.0.3) (2023-05-05)
 
 ### Chore
@@ -88,12 +97,3 @@
 ## [anonaddy-12.0.21](https://github.com/truecharts/charts/compare/anonaddy-12.0.20...anonaddy-12.0.21) (2023-02-02)
 
 ### Fix
-
-- remove non-link sources ([#6826](https://github.com/truecharts/charts/issues/6826))
-  
-  
-
-
-## [anonaddy-12.0.20](https://github.com/truecharts/charts/compare/anonaddy-12.0.19...anonaddy-12.0.20) (2023-01-24)
-
-### Chore
