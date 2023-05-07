@@ -4,6 +4,15 @@
 
 
 
+## [kavita-5.0.12](https://github.com/truecharts/charts/compare/kavita-5.0.11...kavita-5.0.12) (2023-05-07)
+
+### Chore
+
+- update container image tccr.io/truecharts/kavita to v0.7.2 ([#8824](https://github.com/truecharts/charts/issues/8824))
+  
+  
+
+
 ## [kavita-5.0.11](https://github.com/truecharts/charts/compare/kavita-5.0.10...kavita-5.0.11) (2023-05-05)
 
 ### Chore
@@ -86,14 +95,5 @@
 ### Chore
 
 - bump common on the 222 ([#7959](https://github.com/truecharts/charts/issues/7959))
-  
-  
-
-
-## [kavita-5.0.1](https://github.com/truecharts/charts/compare/kavita-5.0.0...kavita-5.0.1) (2023-04-11)
-
-### Fix
-
-- bump common on the 222 ([#7927](https://github.com/truecharts/charts/issues/7927))
   
   
