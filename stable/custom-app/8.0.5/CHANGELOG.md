@@ -14,6 +14,16 @@
   
 
 
+## [custom-app-8.0.5](https://github.com/truecharts/charts/compare/custom-app-8.0.4...custom-app-8.0.5) (2023-05-07)
+
+### Fix
+
+- bump ([#8808](https://github.com/truecharts/charts/issues/8808))
+  - fix probes indent and re-hide port ([#8803](https://github.com/truecharts/charts/issues/8803))
+  
+  
+
+
 ## [custom-app-8.0.4](https://github.com/truecharts/charts/compare/custom-app-8.0.3...custom-app-8.0.4) (2023-05-06)
 
 ### Fix
@@ -86,14 +96,4 @@
 ### Chore
 
 - update helm general non-major ([#5839](https://github.com/truecharts/charts/issues/5839))
-  
-  
-
-
-## [custom-app-7.0.20](https://github.com/truecharts/charts/compare/custom-app-7.0.19...custom-app-7.0.20) (2022-12-25)
-
-### Chore
-
-- update helm general non-major
-  
   
