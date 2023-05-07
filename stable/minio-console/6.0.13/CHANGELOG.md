@@ -4,6 +4,15 @@
 
 
 
+## [minio-console-6.0.13](https://github.com/truecharts/charts/compare/minio-console-6.0.12...minio-console-6.0.13) (2023-05-07)
+
+### Chore
+
+- update container image tccr.io/truecharts/minio-console to v0.26.4 ([#8832](https://github.com/truecharts/charts/issues/8832))
+  
+  
+
+
 ## [minio-console-6.0.12](https://github.com/truecharts/charts/compare/minio-console-6.0.11...minio-console-6.0.12) (2023-05-05)
 
 ### Chore
@@ -88,12 +97,3 @@
 ## [minio-console-6.0.3](https://github.com/truecharts/charts/compare/minio-console-6.0.2...minio-console-6.0.3) (2023-04-14)
 
 
-
-
-## [minio-console-6.0.2](https://github.com/truecharts/charts/compare/minio-console-6.0.1...minio-console-6.0.2) (2023-04-12)
-
-### Chore
-
-- bump common on the 222 ([#7959](https://github.com/truecharts/charts/issues/7959))
-  
-  
