@@ -40,6 +40,15 @@
   
 
 
+## [nextpvr-5.0.3](https://github.com/truecharts/charts/compare/nextpvr-5.0.2...nextpvr-5.0.3) (2023-05-07)
+
+### Chore
+
+- update container image tccr.io/truecharts/nextpvr to latest ([#8811](https://github.com/truecharts/charts/issues/8811))
+  
+  
+
+
 ## [nextpvr-5.0.2](https://github.com/truecharts/charts/compare/nextpvr-5.0.1...nextpvr-5.0.2) (2023-05-05)
 
 ### Chore
@@ -87,13 +96,4 @@
 
 
 ## [nextpvr-4.1.0](https://github.com/truecharts/charts/compare/nextpvr-4.0.7...nextpvr-4.1.0) (2023-02-04)
-
-### Feat
-
-- Add missing UDP ports ([#6961](https://github.com/truecharts/charts/issues/6961))
-  
-  
-
-
-## [nextpvr-4.0.7](https://github.com/truecharts/charts/compare/nextpvr-4.0.6...nextpvr-4.0.7) (2022-12-27)
 
