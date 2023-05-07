@@ -4,6 +4,15 @@
 
 
 
+## [outline-7.0.13](https://github.com/truecharts/charts/compare/outline-7.0.12...outline-7.0.13) (2023-05-07)
+
+### Chore
+
+- update container image tccr.io/truecharts/outline to v0.69.2 ([#8834](https://github.com/truecharts/charts/issues/8834))
+  
+  
+
+
 ## [outline-7.0.12](https://github.com/truecharts/charts/compare/outline-7.0.11...outline-7.0.12) (2023-05-05)
 
 ### Chore
@@ -88,12 +97,3 @@
 ## [outline-7.0.3](https://github.com/truecharts/charts/compare/outline-7.0.2...outline-7.0.3) (2023-04-14)
 
 
-
-
-## [outline-7.0.2](https://github.com/truecharts/charts/compare/outline-7.0.1...outline-7.0.2) (2023-04-12)
-
-### Chore
-
-- bump common on the 222 ([#7959](https://github.com/truecharts/charts/issues/7959))
-  
-  
