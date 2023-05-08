@@ -4,6 +4,15 @@
 
 
 
+## [zigbee2mqtt-7.0.13](https://github.com/truecharts/charts/compare/zigbee2mqtt-7.0.12...zigbee2mqtt-7.0.13) (2023-05-08)
+
+### Chore
+
+- update container image tccr.io/truecharts/zigbee2mqtt to v1.30.4 ([#8846](https://github.com/truecharts/charts/issues/8846))
+  
+  
+
+
 ## [zigbee2mqtt-7.0.12](https://github.com/truecharts/charts/compare/zigbee2mqtt-7.0.11...zigbee2mqtt-7.0.12) (2023-05-05)
 
 ### Chore
@@ -88,12 +97,3 @@
 ## [zigbee2mqtt-7.0.3](https://github.com/truecharts/charts/compare/zigbee2mqtt-7.0.2...zigbee2mqtt-7.0.3) (2023-04-14)
 
 
-
-
-## [zigbee2mqtt-7.0.2](https://github.com/truecharts/charts/compare/zigbee2mqtt-7.0.1...zigbee2mqtt-7.0.2) (2023-04-12)
-
-### Chore
-
-- bump common on the 222 ([#7959](https://github.com/truecharts/charts/issues/7959))
-  
-  
