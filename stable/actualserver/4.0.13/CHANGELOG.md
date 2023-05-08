@@ -4,6 +4,15 @@
 
 
 
+## [actualserver-4.0.13](https://github.com/truecharts/charts/compare/actualserver-4.0.12...actualserver-4.0.13) (2023-05-08)
+
+### Chore
+
+- update container image tccr.io/truecharts/actualserver to v23.5.0 ([#8847](https://github.com/truecharts/charts/issues/8847))
+  
+  
+
+
 ## [actualserver-4.0.12](https://github.com/truecharts/charts/compare/actualserver-4.0.11...actualserver-4.0.12) (2023-05-05)
 
 ### Chore
@@ -88,12 +97,3 @@
 ## [actualserver-4.0.3](https://github.com/truecharts/charts/compare/actualserver-4.0.2...actualserver-4.0.3) (2023-04-14)
 
 
-
-
-## [actualserver-4.0.2](https://github.com/truecharts/charts/compare/actualserver-4.0.1...actualserver-4.0.2) (2023-04-12)
-
-### Chore
-
-- bump common on the 222 ([#7959](https://github.com/truecharts/charts/issues/7959))
-  
-  
