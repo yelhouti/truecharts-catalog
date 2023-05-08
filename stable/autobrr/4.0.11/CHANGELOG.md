@@ -4,6 +4,15 @@
 
 
 
+## [autobrr-4.0.11](https://github.com/truecharts/charts/compare/autobrr-4.0.10...autobrr-4.0.11) (2023-05-08)
+
+### Chore
+
+- update container image tccr.io/truecharts/autobrr to v1.25.0 ([#8848](https://github.com/truecharts/charts/issues/8848))
+  
+  
+
+
 ## [autobrr-4.0.10](https://github.com/truecharts/charts/compare/autobrr-4.0.9...autobrr-4.0.10) (2023-05-05)
 
 ### Chore
@@ -88,12 +97,3 @@
 ## [autobrr-4.0.1](https://github.com/truecharts/charts/compare/autobrr-4.0.0...autobrr-4.0.1) (2023-04-14)
 
 
-
-
-## [autobrr-4.0.0](https://github.com/truecharts/charts/compare/autobrr-3.0.16...autobrr-4.0.0) (2023-04-14)
-
-### Chore
-
-- BREAKING CHANGE migrate to new common part 2 ([#7992](https://github.com/truecharts/charts/issues/7992))
-  
-  
