@@ -4,6 +4,15 @@
 
 
 
+## [qinglong-5.0.11](https://github.com/truecharts/charts/compare/qinglong-5.0.10...qinglong-5.0.11) (2023-05-08)
+
+### Chore
+
+- update container image tccr.io/truecharts/qinglong to v2.15.14 ([#8839](https://github.com/truecharts/charts/issues/8839))
+  
+  
+
+
 ## [qinglong-5.0.10](https://github.com/truecharts/charts/compare/qinglong-5.0.9...qinglong-5.0.10) (2023-05-05)
 
 ### Chore
@@ -88,12 +97,3 @@
 ## [qinglong-5.0.1](https://github.com/truecharts/charts/compare/qinglong-5.0.0...qinglong-5.0.1) (2023-04-14)
 
 
-
-
-## [qinglong-5.0.0](https://github.com/truecharts/charts/compare/qinglong-4.0.20...qinglong-5.0.0) (2023-04-14)
-
-### Chore
-
-- BREAKING CHANGE migrate to new common part 2 ([#7992](https://github.com/truecharts/charts/issues/7992))
-  
-  
