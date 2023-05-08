@@ -4,6 +4,15 @@
 
 
 
+## [jupyter-4.0.15](https://github.com/truecharts/charts/compare/jupyter-4.0.14...jupyter-4.0.15) (2023-05-08)
+
+### Chore
+
+- update jupyter to v2023-05 (minor) ([#8867](https://github.com/truecharts/charts/issues/8867))
+  
+  
+
+
 ## [jupyter-4.0.14](https://github.com/truecharts/charts/compare/jupyter-4.0.13...jupyter-4.0.14) (2023-05-05)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 
 ## [jupyter-4.0.5](https://github.com/truecharts/charts/compare/jupyter-4.0.4...jupyter-4.0.5) (2023-04-16)
-
-### Chore
-
-- update helm general non-major ([#8061](https://github.com/truecharts/charts/issues/8061))
-  
-  
-
-
-## [jupyter-4.0.4](https://github.com/truecharts/charts/compare/jupyter-4.0.3...jupyter-4.0.4) (2023-04-15)
 
 ### Chore
