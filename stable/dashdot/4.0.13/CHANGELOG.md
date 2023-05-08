@@ -4,6 +4,15 @@
 
 
 
+## [dashdot-4.0.13](https://github.com/truecharts/charts/compare/dashdot-4.0.12...dashdot-4.0.13) (2023-05-08)
+
+### Chore
+
+- update container image tccr.io/truecharts/dashdot to v5.2.1 ([#8852](https://github.com/truecharts/charts/issues/8852))
+  
+  
+
+
 ## [dashdot-4.0.12](https://github.com/truecharts/charts/compare/dashdot-4.0.11...dashdot-4.0.12) (2023-05-05)
 
 ### Chore
@@ -88,12 +97,3 @@
 ## [dashdot-4.0.3](https://github.com/truecharts/charts/compare/dashdot-4.0.2...dashdot-4.0.3) (2023-04-14)
 
 
-
-
-## [dashdot-4.0.2](https://github.com/truecharts/charts/compare/dashdot-4.0.1...dashdot-4.0.2) (2023-04-12)
-
-### Chore
-
-- bump common on the 222 ([#7959](https://github.com/truecharts/charts/issues/7959))
-  
-  
