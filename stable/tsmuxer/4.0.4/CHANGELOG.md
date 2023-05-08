@@ -4,6 +4,15 @@
 
 
 
+## [tsmuxer-4.0.4](https://github.com/truecharts/charts/compare/tsmuxer-4.0.3...tsmuxer-4.0.4) (2023-05-08)
+
+### Chore
+
+- update container image tccr.io/truecharts/tsmuxer to v23.04.1 ([#8862](https://github.com/truecharts/charts/issues/8862))
+  
+  
+
+
 ## [tsmuxer-4.0.3](https://github.com/truecharts/charts/compare/tsmuxer-4.0.2...tsmuxer-4.0.3) (2023-05-05)
 
 ### Chore
@@ -85,15 +94,6 @@
 ### Fix
 
 - remove non-link sources ([#6826](https://github.com/truecharts/charts/issues/6826))
-  
-  
-
-
-## [tsmuxer-3.0.9](https://github.com/truecharts/charts/compare/tsmuxer-3.0.8...tsmuxer-3.0.9) (2023-01-11)
-
-### Chore
-
-- update container image tccr.io/truecharts/tsmuxer to v23.01.1
   
   
 
