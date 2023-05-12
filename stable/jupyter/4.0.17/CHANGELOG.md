@@ -4,6 +4,15 @@
 
 
 
+## [jupyter-4.0.17](https://github.com/truecharts/charts/compare/jupyter-4.0.16...jupyter-4.0.17) (2023-05-12)
+
+### Chore
+
+- update container image tccr.io/truecharts/jupyter-r to v2023-05 ([#8914](https://github.com/truecharts/charts/issues/8914))
+  
+  
+
+
 ## [jupyter-4.0.16](https://github.com/truecharts/charts/compare/jupyter-4.0.15...jupyter-4.0.16) (2023-05-11)
 
 ### Chore
@@ -88,12 +97,3 @@
 ## [jupyter-4.0.7](https://github.com/truecharts/charts/compare/jupyter-4.0.6...jupyter-4.0.7) (2023-04-19)
 
 ### Fix
-
-- fix various issues ([#8095](https://github.com/truecharts/charts/issues/8095))
-  
-  
-
-
-## [jupyter-4.0.6](https://github.com/truecharts/charts/compare/jupyter-4.0.5...jupyter-4.0.6) (2023-04-16)
-
-### Chore
