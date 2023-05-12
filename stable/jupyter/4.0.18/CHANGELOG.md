@@ -4,6 +4,15 @@
 
 
 
+## [jupyter-4.0.18](https://github.com/truecharts/charts/compare/jupyter-4.0.17...jupyter-4.0.18) (2023-05-12)
+
+### Chore
+
+- update container image tccr.io/truecharts/jupyter-scipy to v2023-05 ([#8916](https://github.com/truecharts/charts/issues/8916))
+  
+  
+
+
 ## [jupyter-4.0.17](https://github.com/truecharts/charts/compare/jupyter-4.0.16...jupyter-4.0.17) (2023-05-12)
 
 ### Chore
@@ -88,12 +97,3 @@
 ## [jupyter-4.0.8](https://github.com/truecharts/charts/compare/jupyter-4.0.7...jupyter-4.0.8) (2023-04-20)
 
 ### Chore
-
-- update helm general non-major ([#8087](https://github.com/truecharts/charts/issues/8087))
-  
-  
-
-
-## [jupyter-4.0.7](https://github.com/truecharts/charts/compare/jupyter-4.0.6...jupyter-4.0.7) (2023-04-19)
-
-### Fix
