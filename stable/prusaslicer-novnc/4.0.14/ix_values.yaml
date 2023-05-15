@@ -1,0 +1,34 @@
+image:
+  pullPolicy: IfNotPresent
+  repository: tccr.io/truecharts/prusaslicer-novnc
+  tag: latest@sha256:840e6355327648e9624a24e7a9dadc12a61aed0995bb57dc60c334a3391f34f7
+persistence:
+  configsfolder:
+    enabled: true
+    mountPath: /configs/
+  prints:
+    enabled: true
+    mountPath: /prints/
+service:
+  main:
+    ports:
+      main:
+        port: 16080
+        protocol: http
+        targetPort: 8080
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsNonRoot: false
+    runAsGroup: 0
+    runAsUser: 0
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            SSL_CERT_FILE: /etc/ssl/certs/ca-certificates.crt

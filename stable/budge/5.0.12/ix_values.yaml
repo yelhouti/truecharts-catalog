@@ -1,0 +1,36 @@
+image:
+  repository: tccr.io/truecharts/budge
+  tag: v0.0.9@sha256:e1c0dd350e6ddaba73cd0d86db6262719ae4be40e58782b7f66c070d0a6f4715
+  pullPolicy: IfNotPresent
+
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+    runAsNonRoot: false
+    runAsUser: 0
+    runAsGroup: 0
+
+service:
+  main:
+    ports:
+      main:
+        port: 10165
+        protocol: http
+        targetPort: 80
+
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            NODE_ENV: "production"
+
+persistence:
+  config:
+    enabled: true
+    mountPath: /config
+
+portal:
+  open:
+    enabled: true
