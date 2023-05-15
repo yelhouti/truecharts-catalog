@@ -4,6 +4,15 @@
 
 
 
+## [prometheus-9.0.2](https://github.com/truecharts/charts/compare/prometheus-9.0.1...prometheus-9.0.2) (2023-05-15)
+
+### Chore
+
+- update helm general non-major ([#8971](https://github.com/truecharts/charts/issues/8971))
+  
+  
+
+
 ## [prometheus-9.0.1](https://github.com/truecharts/charts/compare/prometheus-9.0.0...prometheus-9.0.1) (2023-05-15)
 
 ### Chore
@@ -85,15 +94,6 @@
 
 
 ## [prometheus-8.0.24](https://github.com/truecharts/charts/compare/prometheus-8.0.23...prometheus-8.0.24) (2023-04-26)
-
-### Chore
-
-- update container image tccr.io/truecharts/alertmanager to 0.25.0 ([#8163](https://github.com/truecharts/charts/issues/8163))
-  
-  
-
-
-## [prometheus-8.0.23](https://github.com/truecharts/charts/compare/prometheus-8.0.22...prometheus-8.0.23) (2023-04-25)
 
 ### Chore
 
