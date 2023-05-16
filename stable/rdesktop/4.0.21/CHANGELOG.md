@@ -4,6 +4,15 @@
 
 
 
+## [rdesktop-4.0.21](https://github.com/truecharts/charts/compare/rdesktop-4.0.20...rdesktop-4.0.21) (2023-05-16)
+
+### Chore
+
+- update container image tccr.io/truecharts/rdesktop to latest ([#8995](https://github.com/truecharts/charts/issues/8995))
+  
+  
+
+
 ## [rdesktop-4.0.20](https://github.com/truecharts/charts/compare/rdesktop-4.0.19...rdesktop-4.0.20) (2023-05-16)
 
 ### Chore
@@ -36,15 +45,6 @@
 ### Chore
 
 - update helm general non-major ([#8782](https://github.com/truecharts/charts/issues/8782))
-  
-  
-
-
-## [rdesktop-4.0.16](https://github.com/truecharts/charts/compare/rdesktop-4.0.15...rdesktop-4.0.16) (2023-05-05)
-
-### Chore
-
-- update container image tccr.io/truecharts/rdesktop-arch-kde to latest ([#8777](https://github.com/truecharts/charts/issues/8777))
   
   
 
