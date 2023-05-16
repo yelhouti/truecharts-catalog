@@ -4,6 +4,15 @@
 
 
 
+## [cloudflareddns-5.0.14](https://github.com/truecharts/charts/compare/cloudflareddns-5.0.13...cloudflareddns-5.0.14) (2023-05-16)
+
+### Chore
+
+- update container image tccr.io/truecharts/cloudflareddns to latest ([#8982](https://github.com/truecharts/charts/issues/8982))
+  
+  
+
+
 ## [cloudflareddns-5.0.13](https://github.com/truecharts/charts/compare/cloudflareddns-5.0.12...cloudflareddns-5.0.13) (2023-05-16)
 
 ### Chore
@@ -88,12 +97,3 @@
 ## [cloudflareddns-5.0.4](https://github.com/truecharts/charts/compare/cloudflareddns-5.0.3...cloudflareddns-5.0.4) (2023-04-15)
 
 ### Chore
-
-- update helm general non-major ([#7998](https://github.com/truecharts/charts/issues/7998))
-  
-  
-
-
-## [cloudflareddns-5.0.3](https://github.com/truecharts/charts/compare/cloudflareddns-5.0.2...cloudflareddns-5.0.3) (2023-04-14)
-
-
