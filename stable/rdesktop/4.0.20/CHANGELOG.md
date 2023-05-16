@@ -4,6 +4,15 @@
 
 
 
+## [rdesktop-4.0.20](https://github.com/truecharts/charts/compare/rdesktop-4.0.19...rdesktop-4.0.20) (2023-05-16)
+
+### Chore
+
+- update rdesktop ([#8991](https://github.com/truecharts/charts/issues/8991))
+  
+  
+
+
 ## [rdesktop-4.0.19](https://github.com/truecharts/charts/compare/rdesktop-4.0.18...rdesktop-4.0.19) (2023-05-16)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 
 ## [rdesktop-4.0.16](https://github.com/truecharts/charts/compare/rdesktop-4.0.15...rdesktop-4.0.16) (2023-05-05)
-
-### Chore
-
-- update container image tccr.io/truecharts/rdesktop-arch-kde to latest ([#8777](https://github.com/truecharts/charts/issues/8777))
-  
-  
-
-
-## [rdesktop-4.0.15](https://github.com/truecharts/charts/compare/rdesktop-4.0.14...rdesktop-4.0.15) (2023-05-03)
 
 ### Chore
