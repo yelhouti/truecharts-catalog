@@ -4,6 +4,15 @@
 
 
 
+## [soft-serve-2.0.14](https://github.com/truecharts/charts/compare/soft-serve-2.0.13...soft-serve-2.0.14) (2023-05-20)
+
+### Chore
+
+- update container image tccr.io/truecharts/soft-serve to v0.5.4 ([#9026](https://github.com/truecharts/charts/issues/9026))
+  
+  
+
+
 ## [soft-serve-2.0.13](https://github.com/truecharts/charts/compare/soft-serve-2.0.12...soft-serve-2.0.13) (2023-05-16)
 
 ### Chore
@@ -88,12 +97,3 @@
 ## [soft-serve-2.0.4](https://github.com/truecharts/charts/compare/soft-serve-2.0.3...soft-serve-2.0.4) (2023-04-15)
 
 ### Chore
-
-- update helm general non-major ([#7998](https://github.com/truecharts/charts/issues/7998))
-  
-  
-
-
-## [soft-serve-2.0.3](https://github.com/truecharts/charts/compare/soft-serve-2.0.2...soft-serve-2.0.3) (2023-04-14)
-
-
