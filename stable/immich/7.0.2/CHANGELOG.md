@@ -4,6 +4,15 @@
 
 
 
+## [immich-7.0.2](https://github.com/truecharts/charts/compare/immich-7.0.1...immich-7.0.2) (2023-05-20)
+
+### Chore
+
+- update immich to v1.56.2 (minor) ([#9027](https://github.com/truecharts/charts/issues/9027))
+  
+  
+
+
 ## [immich-7.0.1](https://github.com/truecharts/charts/compare/immich-7.0.0...immich-7.0.1) (2023-05-16)
 
 ### Chore
@@ -87,13 +96,4 @@
 - update immich to v1.46.1
   
   ### Fix
-
-- ensure new helm deps repo is used in latest releases as well.
-  
-  
-
-
-## [immich-5.0.10](https://github.com/truecharts/charts/compare/immich-5.0.9...immich-5.0.10) (2023-02-10)
-
-### Chore
 
