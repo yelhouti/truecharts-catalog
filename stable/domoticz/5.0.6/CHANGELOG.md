@@ -4,6 +4,15 @@
 
 
 
+## [domoticz-5.0.6](https://github.com/truecharts/charts/compare/domoticz-5.0.5...domoticz-5.0.6) (2023-05-21)
+
+### Chore
+
+- update container image tccr.io/truecharts/domoticz to v2023.1.20230518 ([#9031](https://github.com/truecharts/charts/issues/9031))
+  
+  
+
+
 ## [domoticz-5.0.5](https://github.com/truecharts/charts/compare/domoticz-5.0.4...domoticz-5.0.5) (2023-05-16)
 
 ### Chore
@@ -88,12 +97,3 @@
 ## [domoticz-4.0.18](https://github.com/truecharts/charts/compare/domoticz-4.0.17...domoticz-4.0.18) (2023-02-10)
 
 ### Fix
-
-- ensure new helm deps repo is used in latest releases as well.
-  
-  
-
-
-## [domoticz-4.0.17](https://github.com/truecharts/charts/compare/domoticz-4.0.16...domoticz-4.0.17) (2023-02-03)
-
-### Chore
