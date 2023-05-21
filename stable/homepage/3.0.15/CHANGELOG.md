@@ -4,6 +4,15 @@
 
 
 
+## [homepage-3.0.15](https://github.com/truecharts/charts/compare/homepage-3.0.14...homepage-3.0.15) (2023-05-21)
+
+### Chore
+
+- update container image tccr.io/truecharts/homepage to v0.6.20 ([#9030](https://github.com/truecharts/charts/issues/9030))
+  
+  
+
+
 ## [homepage-3.0.14](https://github.com/truecharts/charts/compare/homepage-3.0.13...homepage-3.0.14) (2023-05-16)
 
 ### Chore
@@ -87,13 +96,4 @@
 
 
 ## [homepage-3.0.5](https://github.com/truecharts/charts/compare/homepage-3.0.4...homepage-3.0.5) (2023-04-16)
-
-### Chore
-
-- update helm general non-major ([#8061](https://github.com/truecharts/charts/issues/8061))
-  
-  
-
-
-## [homepage-3.0.4](https://github.com/truecharts/charts/compare/homepage-3.0.3...homepage-3.0.4) (2023-04-15)
 
