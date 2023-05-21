@@ -4,6 +4,15 @@
 
 
 
+## [ntfy-5.0.6](https://github.com/truecharts/charts/compare/ntfy-5.0.5...ntfy-5.0.6) (2023-05-21)
+
+### Chore
+
+- update container image tccr.io/truecharts/ntfy to v2.5.0 ([#9038](https://github.com/truecharts/charts/issues/9038))
+  
+  
+
+
 ## [ntfy-5.0.5](https://github.com/truecharts/charts/compare/ntfy-5.0.4...ntfy-5.0.5) (2023-05-16)
 
 ### Chore
@@ -85,15 +94,6 @@
 ### Chore
 
 - update container image tccr.io/truecharts/ntfy to v1.31.0
-  
-  
-
-
-## [ntfy-4.0.11](https://github.com/truecharts/charts/compare/ntfy-4.0.10...ntfy-4.0.11) (2023-02-10)
-
-### Fix
-
-- ensure new helm deps repo is used in latest releases as well.
   
   
 
