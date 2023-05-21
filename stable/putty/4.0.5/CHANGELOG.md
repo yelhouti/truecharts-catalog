@@ -4,6 +4,15 @@
 
 
 
+## [putty-4.0.5](https://github.com/truecharts/charts/compare/putty-4.0.4...putty-4.0.5) (2023-05-21)
+
+### Chore
+
+- update container image tccr.io/truecharts/putty to v23.04.1 ([#9051](https://github.com/truecharts/charts/issues/9051))
+  
+  
+
+
 ## [putty-4.0.4](https://github.com/truecharts/charts/compare/putty-4.0.3...putty-4.0.4) (2023-05-16)
 
 ### Chore
@@ -85,15 +94,6 @@
 ### Fix
 
 - remove non-link sources ([#6826](https://github.com/truecharts/charts/issues/6826))
-  
-  
-
-
-## [putty-3.0.8](https://github.com/truecharts/charts/compare/putty-3.0.7...putty-3.0.8) (2023-01-11)
-
-### Chore
-
-- update container image tccr.io/truecharts/putty to v23.01.1
   
   
 
