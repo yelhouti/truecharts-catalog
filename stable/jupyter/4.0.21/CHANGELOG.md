@@ -4,6 +4,15 @@
 
 
 
+## [jupyter-4.0.21](https://github.com/truecharts/charts/compare/jupyter-4.0.20...jupyter-4.0.21) (2023-05-22)
+
+### Chore
+
+- update jupyter ([#9085](https://github.com/truecharts/charts/issues/9085))
+  
+  
+
+
 ## [jupyter-4.0.20](https://github.com/truecharts/charts/compare/jupyter-4.0.19...jupyter-4.0.20) (2023-05-22)
 
 ### Feat
@@ -86,14 +95,5 @@
 
 
 ## [jupyter-4.0.11](https://github.com/truecharts/charts/compare/jupyter-4.0.10...jupyter-4.0.11) (2023-04-27)
-
-### Chore
-
-- update jupyter to v2023-04 (minor) ([#8282](https://github.com/truecharts/charts/issues/8282))
-  
-  
-
-
-## [jupyter-4.0.10](https://github.com/truecharts/charts/compare/jupyter-4.0.9...jupyter-4.0.10) (2023-04-25)
 
 ### Chore
