@@ -255,12 +255,6 @@ questions:
       default: false
       show_subquestions_if: true
       subquestions:
-        - variable: hostNetwork
-          group: Networking and Services
-          label: Host-Networking (Complicated)
-          schema:
-            hidden: true
-            type: boolean
             default: false
         - variable: scaleExternalInterface
           description: Add External Interfaces
