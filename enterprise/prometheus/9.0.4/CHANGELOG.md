@@ -4,6 +4,15 @@
 
 
 
+## [prometheus-9.0.4](https://github.com/truecharts/charts/compare/prometheus-9.0.3...prometheus-9.0.4) (2023-05-22)
+
+### Fix
+
+- readd node-exporter and kube-state-metrics support ([#9062](https://github.com/truecharts/charts/issues/9062))
+  
+  
+
+
 ## [prometheus-9.0.3](https://github.com/truecharts/charts/compare/prometheus-9.0.2...prometheus-9.0.3) (2023-05-22)
 
 ### Chore
@@ -88,12 +97,3 @@
 ### Chore
 
 - update container image tccr.io/truecharts/prometheus to 2.43.0 ([#8499](https://github.com/truecharts/charts/issues/8499))
-  
-  
-
-
-## [prometheus-8.0.25](https://github.com/truecharts/charts/compare/prometheus-8.0.24...prometheus-8.0.25) (2023-04-29)
-
-### Chore
-
-- update container image tccr.io/truecharts/prometheus to 2.43.0 ([#8470](https://github.com/truecharts/charts/issues/8470))
