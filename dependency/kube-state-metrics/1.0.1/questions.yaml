@@ -244,7 +244,7 @@ questions:
                 description: "ClusterIP's are only internally available and Loadbalancer exposes the service using the system loadbalancer"
                 schema:
                   type: string
-                  default: LoadBalancer
+                  default: ClusterIP
                   enum:
                     - value: LoadBalancer
                       description: LoadBalancer (Expose Ports)
@@ -276,13 +276,6 @@ questions:
                               type: int
                               default: 8080
                               required: true
-  - variable: service
-    group: Networking and Services
-    label: Configure Service(s)
-    schema:
-      additional_attrs: true
-      type: dict
-      attrs:
         - variable: selfmonitor
           label: "selfmonitor Service"
           description: "The Primary service on which the healthcheck runs, often the webUI"
@@ -301,7 +294,7 @@ questions:
                 description: "ClusterIP's are only internally available and Loadbalancer exposes the service using the system loadbalancer"
                 schema:
                   type: string
-                  default: LoadBalancer
+                  default: ClusterIP
                   enum:
                     - value: LoadBalancer
                       description: LoadBalancer (Expose Ports)
