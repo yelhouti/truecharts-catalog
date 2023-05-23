@@ -4,6 +4,15 @@
 
 
 
+## [prometheus-9.0.8](https://github.com/truecharts/charts/compare/prometheus-9.0.7...prometheus-9.0.8) (2023-05-23)
+
+### Chore
+
+- update helm chart kube-state-metrics to 1.0.3 ([#9098](https://github.com/truecharts/charts/issues/9098))
+  
+  
+
+
 ## [prometheus-9.0.7](https://github.com/truecharts/charts/compare/prometheus-9.0.6...prometheus-9.0.7) (2023-05-23)
 
 ### Chore
@@ -88,12 +97,3 @@
 
 ## [prometheus-8.0.30](https://github.com/truecharts/charts/compare/prometheus-8.0.29...prometheus-8.0.30) (2023-05-05)
 
-
-
-
-## [prometheus-8.0.29](https://github.com/truecharts/charts/compare/prometheus-8.0.28...prometheus-8.0.29) (2023-05-03)
-
-### Chore
-
-- update container image tccr.io/truecharts/thanos to 0.31.0 ([#8735](https://github.com/truecharts/charts/issues/8735))
-  - update container image tccr.io/truecharts/prometheus to 2.43.0 ([#8730](https://github.com/truecharts/charts/issues/8730))
