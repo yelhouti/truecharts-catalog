@@ -4,6 +4,15 @@
 
 
 
+## [booksonic-air-9.0.17](https://github.com/truecharts/charts/compare/booksonic-air-9.0.16...booksonic-air-9.0.17) (2023-05-24)
+
+### Chore
+
+- update container image tccr.io/truecharts/booksonic-air to v2201.1.0 ([#9135](https://github.com/truecharts/charts/issues/9135))
+  
+  
+
+
 ## [booksonic-air-9.0.16](https://github.com/truecharts/charts/compare/booksonic-air-9.0.15...booksonic-air-9.0.16) (2023-05-24)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 
 ## [booksonic-air-9.0.7](https://github.com/truecharts/charts/compare/booksonic-air-9.0.6...booksonic-air-9.0.7) (2023-04-20)
-
-### Chore
-
-- update helm general non-major ([#8087](https://github.com/truecharts/charts/issues/8087))
-  
-  
-
-
-## [booksonic-air-9.0.6](https://github.com/truecharts/charts/compare/booksonic-air-9.0.5...booksonic-air-9.0.6) (2023-04-16)
 
 ### Chore
