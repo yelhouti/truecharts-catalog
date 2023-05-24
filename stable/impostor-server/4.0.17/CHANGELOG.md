@@ -4,6 +4,15 @@
 
 
 
+## [impostor-server-4.0.17](https://github.com/truecharts/charts/compare/impostor-server-4.0.16...impostor-server-4.0.17) (2023-05-24)
+
+### Chore
+
+- update container image tccr.io/truecharts/impostor-server-nightly to vnightly ([#9112](https://github.com/truecharts/charts/issues/9112))
+  
+  
+
+
 ## [impostor-server-4.0.16](https://github.com/truecharts/charts/compare/impostor-server-4.0.15...impostor-server-4.0.16) (2023-05-24)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 
 ## [impostor-server-4.0.7](https://github.com/truecharts/charts/compare/impostor-server-4.0.6...impostor-server-4.0.7) (2023-04-25)
-
-### Chore
-
-- update helm general non-major ([#8145](https://github.com/truecharts/charts/issues/8145))
-  
-  
-
-
-## [impostor-server-4.0.6](https://github.com/truecharts/charts/compare/impostor-server-4.0.5...impostor-server-4.0.6) (2023-04-20)
 
 ### Chore
