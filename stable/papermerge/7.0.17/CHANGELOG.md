@@ -4,6 +4,15 @@
 
 
 
+## [papermerge-7.0.17](https://github.com/truecharts/charts/compare/papermerge-7.0.16...papermerge-7.0.17) (2023-05-26)
+
+### Chore
+
+- update container image tccr.io/truecharts/papermerge to v2.1.9 ([#8636](https://github.com/truecharts/charts/issues/8636))
+  
+  
+
+
 ## [papermerge-7.0.16](https://github.com/truecharts/charts/compare/papermerge-7.0.15...papermerge-7.0.16) (2023-05-26)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 
 ## [papermerge-7.0.7](https://github.com/truecharts/charts/compare/papermerge-7.0.6...papermerge-7.0.7) (2023-04-20)
-
-### Chore
-
-- update helm general non-major ([#8087](https://github.com/truecharts/charts/issues/8087))
-  
-  
-
-
-## [papermerge-7.0.6](https://github.com/truecharts/charts/compare/papermerge-7.0.5...papermerge-7.0.6) (2023-04-16)
 
 ### Chore
