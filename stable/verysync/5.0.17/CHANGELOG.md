@@ -4,6 +4,15 @@
 
 
 
+## [verysync-5.0.17](https://github.com/truecharts/charts/compare/verysync-5.0.16...verysync-5.0.17) (2023-05-26)
+
+### Chore
+
+- update container image tccr.io/truecharts/verysync to 2.16.0 ([#8413](https://github.com/truecharts/charts/issues/8413))
+  
+  
+
+
 ## [verysync-5.0.16](https://github.com/truecharts/charts/compare/verysync-5.0.15...verysync-5.0.16) (2023-05-26)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 
 ## [verysync-5.0.7](https://github.com/truecharts/charts/compare/verysync-5.0.6...verysync-5.0.7) (2023-04-20)
-
-### Chore
-
-- update helm general non-major ([#8087](https://github.com/truecharts/charts/issues/8087))
-  
-  
-
-
-## [verysync-5.0.6](https://github.com/truecharts/charts/compare/verysync-5.0.5...verysync-5.0.6) (2023-04-16)
 
 ### Chore
