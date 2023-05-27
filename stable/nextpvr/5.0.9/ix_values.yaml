@@ -1,0 +1,51 @@
+image:
+  repository: tccr.io/truecharts/nextpvr
+  tag: latest@sha256:276736c9047a3183f389ed6dbdf11d4c7c65e79ec272db1eaee5db7d016c9707
+  pullPolicy: IfNotPresent
+service:
+  main:
+    ports:
+      main:
+        port: 10183
+        targetPort: 8866
+  nextpvr-udp:
+    enabled: true
+    ports:
+      nextpvr-udp1:
+        enabled: true
+        protocol: udp
+        port: 16891
+        targetPort: 16891
+      nextpvr-udp2:
+        enabled: true
+        protocol: udp
+        port: 8026
+        targetPort: 8026
+persistence:
+  config:
+    enabled: true
+    mountPath: "/config"
+  recordings:
+    enabled: true
+    mountPath: "/recordings"
+  buffer:
+    enabled: true
+    mountPath: "/buffer"
+portal:
+  open:
+    enabled: true
+
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          probes:
+            liveness:
+              type: tcp
+            readiness:
+              type: tcp
+            startup:
+              type: tcp
+          env:
+            HOST_IP: "localhost"
