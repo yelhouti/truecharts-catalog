@@ -29,7 +29,14 @@ groups:
     description: Postgresql
   - name: Documentation
     description: Documentation
-portals: {}
+portals:
+  open:
+    protocols:
+      - "$kubernetes-resource_configmap_tcportal-open_protocol"
+    host:
+      - "$kubernetes-resource_configmap_tcportal-open_host"
+    ports:
+      - "$kubernetes-resource_configmap_tcportal-open_port"
 questions:
   - variable: global
     group: General Settings
@@ -804,20 +811,32 @@ questions:
                   show_if: [["type", "=", "pvc"]]
                   type: string
                   default: 256Gi
-
-
-        - variable: runAsUser
-          label: runAsUser
-          description: The UserID of the user running the application
+  - variable: securityContext
+    group: Security and Permissions
+    label: Security Context
+    schema:
+      additional_attrs: true
+      type: dict
+      attrs:
+        - variable: container
+          label: Container
           schema:
-            type: int
-            default: 0
-        - variable: runAsGroup
-          label: runAsGroup
-          description: The groupID this App of the user running the application
-          schema:
-            type: int
-            default: 0
+            additional_attrs: true
+            type: dict
+            attrs:
+              # Settings from questions.yaml get appended here on a per-app basis
+              - variable: runAsUser
+                label: runAsUser
+                description: The UserID of the user running the application
+                schema:
+                  type: int
+                  default: 0
+              - variable: runAsGroup
+                label: runAsGroup
+                description: The groupID of the user running the application
+                schema:
+                  type: int
+                  default: 0
               # Settings from questions.yaml get appended here on a per-app basis
               - variable: PUID
                 label: Process User ID - PUID
@@ -877,12 +896,12 @@ questions:
                       schema:
                         type: int
               # Settings from questions.yaml get appended here on a per-app basis
-        - variable: fsGroup
-          label: fsGroup
-          description: The group that should own ALL storage.
-          schema:
-            type: int
-            default: 568
+              - variable: fsGroup
+                label: fsGroup
+                description: The group that should own ALL storage.
+                schema:
+                  type: int
+                  default: 568
 
   - variable: resources
     group: Resources and Devices

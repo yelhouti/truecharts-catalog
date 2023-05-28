@@ -4,6 +4,15 @@
 
 
 
+## [icloudpd-2.0.16](https://github.com/truecharts/charts/compare/icloudpd-2.0.15...icloudpd-2.0.16) (2023-05-28)
+
+### Fix
+
+- Fix broken questions ([#9222](https://github.com/truecharts/charts/issues/9222))
+  
+  
+
+
 ## [icloudpd-2.0.15](https://github.com/truecharts/charts/compare/icloudpd-2.0.14...icloudpd-2.0.15) (2023-05-26)
 
 ### Fix
@@ -87,13 +96,4 @@
 
 
 ## [icloudpd-2.0.6](https://github.com/truecharts/charts/compare/icloudpd-2.0.5...icloudpd-2.0.6) (2022-12-12)
-
-### Chore
-
-- update container image tccr.io/truecharts/icloudpd to latest
-  
-  
-
-
-## [icloudpd-2.0.5](https://github.com/truecharts/charts/compare/icloudpd-2.0.4...icloudpd-2.0.5) (2022-11-30)
 
