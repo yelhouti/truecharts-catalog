@@ -4,6 +4,19 @@
 
 
 
+## [homarr-5.0.19](https://github.com/truecharts/charts/compare/homarr-5.0.18...homarr-5.0.19) (2023-05-28)
+
+### Chore
+
+- update container image tccr.io/truecharts/homarr to v0.12.2 ([#9238](https://github.com/truecharts/charts/issues/9238))
+  
+  ### Feat
+
+- hide advanced ingress options behind checbox ([#9203](https://github.com/truecharts/charts/issues/9203))
+  
+  
+
+
 ## [homarr-5.0.18](https://github.com/truecharts/charts/compare/homarr-5.0.17...homarr-5.0.18) (2023-05-27)
 
 ### Chore
@@ -84,16 +97,3 @@
   
   
 
-
-## [homarr-5.0.9](https://github.com/truecharts/charts/compare/homarr-5.0.8...homarr-5.0.9) (2023-04-25)
-
-### Chore
-
-- update helm general non-major ([#8153](https://github.com/truecharts/charts/issues/8153))
-  
-  
-
-
-## [homarr-5.0.8](https://github.com/truecharts/charts/compare/homarr-5.0.7...homarr-5.0.8) (2023-04-25)
-
-### Chore
