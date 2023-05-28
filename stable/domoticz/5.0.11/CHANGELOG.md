@@ -4,6 +4,19 @@
 
 
 
+## [domoticz-5.0.11](https://github.com/truecharts/charts/compare/domoticz-5.0.10...domoticz-5.0.11) (2023-05-28)
+
+### Chore
+
+- update container image tccr.io/truecharts/domoticz to v2023.1.20230525 ([#9230](https://github.com/truecharts/charts/issues/9230))
+  
+  ### Feat
+
+- hide advanced ingress options behind checbox ([#9203](https://github.com/truecharts/charts/issues/9203))
+  
+  
+
+
 ## [domoticz-5.0.10](https://github.com/truecharts/charts/compare/domoticz-5.0.9...domoticz-5.0.10) (2023-05-27)
 
 ### Chore
@@ -83,17 +96,4 @@
 ## [domoticz-5.0.3](https://github.com/truecharts/charts/compare/domoticz-5.0.2...domoticz-5.0.3) (2023-05-05)
 
 ### Chore
-
-- update helm general non-major ([#8782](https://github.com/truecharts/charts/issues/8782))
-  
-  
-
-
-## [domoticz-5.0.2](https://github.com/truecharts/charts/compare/domoticz-5.0.1...domoticz-5.0.2) (2023-05-03)
-
-### Chore
-
-- update helm general non-major ([#8739](https://github.com/truecharts/charts/issues/8739))
-  
-  
 
