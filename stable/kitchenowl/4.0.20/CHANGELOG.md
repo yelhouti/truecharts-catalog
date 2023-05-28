@@ -4,6 +4,19 @@
 
 
 
+## [kitchenowl-4.0.20](https://github.com/truecharts/charts/compare/kitchenowl-4.0.19...kitchenowl-4.0.20) (2023-05-28)
+
+### Chore
+
+- update container image tccr.io/truecharts/kitchenowl-backend to latest ([#9223](https://github.com/truecharts/charts/issues/9223))
+  
+  ### Feat
+
+- hide advanced ingress options behind checbox ([#9203](https://github.com/truecharts/charts/issues/9203))
+  
+  
+
+
 ## [kitchenowl-4.0.19](https://github.com/truecharts/charts/compare/kitchenowl-4.0.18...kitchenowl-4.0.19) (2023-05-27)
 
 ### Chore
@@ -84,16 +97,3 @@
   
   
 
-
-## [kitchenowl-4.0.10](https://github.com/truecharts/charts/compare/kitchenowl-4.0.9...kitchenowl-4.0.10) (2023-05-03)
-
-### Chore
-
-- update helm general non-major ([#8739](https://github.com/truecharts/charts/issues/8739))
-  
-  
-
-
-## [kitchenowl-4.0.9](https://github.com/truecharts/charts/compare/kitchenowl-4.0.8...kitchenowl-4.0.9) (2023-04-25)
-
-### Chore
