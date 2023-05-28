@@ -4,6 +4,15 @@
 
 
 
+## [blocky-5.0.35](https://github.com/truecharts/charts/compare/blocky-5.0.34...blocky-5.0.35) (2023-05-28)
+
+### Feat
+
+- hide advanced ingress options behind checbox ([#9203](https://github.com/truecharts/charts/issues/9203))
+  
+  
+
+
 ## [blocky-5.0.34](https://github.com/truecharts/charts/compare/blocky-5.0.33...blocky-5.0.34) (2023-05-27)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 
 ## [blocky-5.0.25](https://github.com/truecharts/charts/compare/blocky-5.0.24...blocky-5.0.25) (2023-04-25)
-
-### Chore
-
-- update helm general non-major ([#8145](https://github.com/truecharts/charts/issues/8145))
-  
-  
-
-
-## [blocky-5.0.24](https://github.com/truecharts/charts/compare/blocky-5.0.23...blocky-5.0.24) (2023-04-24)
 
 ### Chore
