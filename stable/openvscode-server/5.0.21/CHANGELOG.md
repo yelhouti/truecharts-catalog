@@ -4,6 +4,19 @@
 
 
 
+## [openvscode-server-5.0.21](https://github.com/truecharts/charts/compare/openvscode-server-5.0.20...openvscode-server-5.0.21) (2023-05-29)
+
+### Chore
+
+- update container image tccr.io/truecharts/openvscode-server to v1.78.2 ([#9244](https://github.com/truecharts/charts/issues/9244))
+  
+  ### Feat
+
+- hide advanced ingress options behind checbox ([#9203](https://github.com/truecharts/charts/issues/9203))
+  
+  
+
+
 ## [openvscode-server-5.0.20](https://github.com/truecharts/charts/compare/openvscode-server-5.0.19...openvscode-server-5.0.20) (2023-05-27)
 
 ### Chore
@@ -84,16 +97,3 @@
   
   
 
-
-## [openvscode-server-5.0.11](https://github.com/truecharts/charts/compare/openvscode-server-5.0.10...openvscode-server-5.0.11) (2023-04-30)
-
-### Chore
-
-- update container image tccr.io/truecharts/openvscode-server to v1.77.3 ([#8612](https://github.com/truecharts/charts/issues/8612))
-  
-  
-
-
-## [openvscode-server-5.0.10](https://github.com/truecharts/charts/compare/openvscode-server-5.0.9...openvscode-server-5.0.10) (2023-04-27)
-
-### Chore
