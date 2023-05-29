@@ -4,6 +4,19 @@
 
 
 
+## [vikunja-8.0.13](https://github.com/truecharts/charts/compare/vikunja-8.0.12...vikunja-8.0.13) (2023-05-29)
+
+### Chore
+
+- update container image tccr.io/truecharts/nginx to v1.25.0 ([#9273](https://github.com/truecharts/charts/issues/9273))
+  
+  ### Feat
+
+- hide advanced ingress options behind checbox ([#9203](https://github.com/truecharts/charts/issues/9203))
+  
+  
+
+
 ## [vikunja-8.0.12](https://github.com/truecharts/charts/compare/vikunja-8.0.11...vikunja-8.0.12) (2023-05-27)
 
 ### Chore
@@ -84,16 +97,3 @@
   - update container image tccr.io/truecharts/nginx to v1.24.0 ([#8606](https://github.com/truecharts/charts/issues/8606))
   
   
-
-
-## [vikunja-8.0.3](https://github.com/truecharts/charts/compare/vikunja-8.0.2...vikunja-8.0.3) (2023-05-03)
-
-### Chore
-
-- update helm general non-major ([#8739](https://github.com/truecharts/charts/issues/8739))
-  
-  
-
-
-## [vikunja-8.0.2](https://github.com/truecharts/charts/compare/vikunja-8.0.1...vikunja-8.0.2) (2023-05-02)
-

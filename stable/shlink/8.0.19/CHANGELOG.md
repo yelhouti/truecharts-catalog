@@ -4,6 +4,19 @@
 
 
 
+## [shlink-8.0.19](https://github.com/truecharts/charts/compare/shlink-8.0.18...shlink-8.0.19) (2023-05-29)
+
+### Chore
+
+- update container image tccr.io/truecharts/shlink to v3.6.0 ([#9277](https://github.com/truecharts/charts/issues/9277))
+  
+  ### Feat
+
+- hide advanced ingress options behind checbox ([#9203](https://github.com/truecharts/charts/issues/9203))
+  
+  
+
+
 ## [shlink-8.0.18](https://github.com/truecharts/charts/compare/shlink-8.0.17...shlink-8.0.18) (2023-05-27)
 
 ### Chore
@@ -84,16 +97,3 @@
   
   
 
-
-## [shlink-8.0.9](https://github.com/truecharts/charts/compare/shlink-8.0.8...shlink-8.0.9) (2023-04-25)
-
-### Chore
-
-- update helm general non-major ([#8153](https://github.com/truecharts/charts/issues/8153))
-  
-  
-
-
-## [shlink-8.0.8](https://github.com/truecharts/charts/compare/shlink-8.0.7...shlink-8.0.8) (2023-04-25)
-
-### Chore
