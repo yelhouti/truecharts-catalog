@@ -4,6 +4,19 @@
 
 
 
+## [minio-console-6.0.22](https://github.com/truecharts/charts/compare/minio-console-6.0.21...minio-console-6.0.22) (2023-05-29)
+
+### Chore
+
+- update container image tccr.io/truecharts/minio-console to v0.28.0 ([#9270](https://github.com/truecharts/charts/issues/9270))
+  
+  ### Feat
+
+- hide advanced ingress options behind checbox ([#9203](https://github.com/truecharts/charts/issues/9203))
+  
+  
+
+
 ## [minio-console-6.0.21](https://github.com/truecharts/charts/compare/minio-console-6.0.20...minio-console-6.0.21) (2023-05-27)
 
 ### Chore
@@ -84,16 +97,3 @@
   
   
 
-
-## [minio-console-6.0.12](https://github.com/truecharts/charts/compare/minio-console-6.0.11...minio-console-6.0.12) (2023-05-05)
-
-### Chore
-
-- update helm general non-major ([#8782](https://github.com/truecharts/charts/issues/8782))
-  
-  
-
-
-## [minio-console-6.0.11](https://github.com/truecharts/charts/compare/minio-console-6.0.10...minio-console-6.0.11) (2023-05-03)
-
-### Chore
