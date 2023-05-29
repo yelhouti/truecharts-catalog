@@ -4,6 +4,19 @@
 
 
 
+## [minio-6.0.23](https://github.com/truecharts/charts/compare/minio-6.0.22...minio-6.0.23) (2023-05-29)
+
+### Chore
+
+- update container image tccr.io/truecharts/minio to latest ([#9267](https://github.com/truecharts/charts/issues/9267))
+  
+  ### Feat
+
+- hide advanced ingress options behind checbox ([#9203](https://github.com/truecharts/charts/issues/9203))
+  
+  
+
+
 ## [minio-6.0.22](https://github.com/truecharts/charts/compare/minio-6.0.21...minio-6.0.22) (2023-05-27)
 
 ### Chore
@@ -84,16 +97,3 @@
   
   
 
-
-## [minio-6.0.13](https://github.com/truecharts/charts/compare/minio-6.0.12...minio-6.0.13) (2023-05-05)
-
-### Chore
-
-- update helm general non-major ([#8782](https://github.com/truecharts/charts/issues/8782))
-  
-  
-
-
-## [minio-6.0.12](https://github.com/truecharts/charts/compare/minio-6.0.11...minio-6.0.12) (2023-05-03)
-
-### Chore
