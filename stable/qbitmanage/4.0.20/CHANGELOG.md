@@ -4,6 +4,15 @@
 
 
 
+## [qbitmanage-4.0.20](https://github.com/truecharts/charts/compare/qbitmanage-4.0.19...qbitmanage-4.0.20) (2023-05-29)
+
+### Chore
+
+- update container image tccr.io/truecharts/qbitmanage to v3.6.3 ([#9250](https://github.com/truecharts/charts/issues/9250))
+  
+  
+
+
 ## [qbitmanage-4.0.19](https://github.com/truecharts/charts/compare/qbitmanage-4.0.18...qbitmanage-4.0.19) (2023-05-27)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 
 ## [qbitmanage-4.0.10](https://github.com/truecharts/charts/compare/qbitmanage-4.0.9...qbitmanage-4.0.10) (2023-04-30)
-
-### Chore
-
-- update container image tccr.io/truecharts/qbitmanage to v3.4.4 ([#8515](https://github.com/truecharts/charts/issues/8515))
-  
-  
-
-
-## [qbitmanage-4.0.9](https://github.com/truecharts/charts/compare/qbitmanage-4.0.8...qbitmanage-4.0.9) (2023-04-25)
 
 ### Chore
