@@ -4,6 +4,19 @@
 
 
 
+## [linkding-5.0.18](https://github.com/truecharts/charts/compare/linkding-5.0.17...linkding-5.0.18) (2023-05-29)
+
+### Chore
+
+- update container image tccr.io/truecharts/linkding to v1.19.0 ([#9264](https://github.com/truecharts/charts/issues/9264))
+  
+  ### Feat
+
+- hide advanced ingress options behind checbox ([#9203](https://github.com/truecharts/charts/issues/9203))
+  
+  
+
+
 ## [linkding-5.0.17](https://github.com/truecharts/charts/compare/linkding-5.0.16...linkding-5.0.17) (2023-05-27)
 
 ### Chore
@@ -84,16 +97,3 @@
   
   
 
-
-## [linkding-5.0.8](https://github.com/truecharts/charts/compare/linkding-5.0.7...linkding-5.0.8) (2023-04-25)
-
-### Chore
-
-- update helm general non-major ([#8145](https://github.com/truecharts/charts/issues/8145))
-  
-  
-
-
-## [linkding-5.0.7](https://github.com/truecharts/charts/compare/linkding-5.0.6...linkding-5.0.7) (2023-04-20)
-
-### Chore
