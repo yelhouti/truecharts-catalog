@@ -4,6 +4,19 @@
 
 
 
+## [openspeedtest-4.0.17](https://github.com/truecharts/charts/compare/openspeedtest-4.0.16...openspeedtest-4.0.17) (2023-06-01)
+
+### Chore
+
+- update container image tccr.io/truecharts/openspeedtest to latest ([#9321](https://github.com/truecharts/charts/issues/9321))
+  
+  ### Feat
+
+- hide advanced ingress options behind checbox ([#9203](https://github.com/truecharts/charts/issues/9203))
+  
+  
+
+
 ## [openspeedtest-4.0.16](https://github.com/truecharts/charts/compare/openspeedtest-4.0.15...openspeedtest-4.0.16) (2023-05-27)
 
 ### Chore
@@ -84,16 +97,3 @@
   
   
 
-
-## [openspeedtest-4.0.7](https://github.com/truecharts/charts/compare/openspeedtest-4.0.6...openspeedtest-4.0.7) (2023-04-25)
-
-### Chore
-
-- update helm general non-major ([#8153](https://github.com/truecharts/charts/issues/8153))
-  
-  
-
-
-## [openspeedtest-4.0.6](https://github.com/truecharts/charts/compare/openspeedtest-4.0.5...openspeedtest-4.0.6) (2023-04-25)
-
-### Chore
