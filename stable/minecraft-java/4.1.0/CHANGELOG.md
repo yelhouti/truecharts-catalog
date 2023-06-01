@@ -4,6 +4,15 @@
 
 
 
+## [minecraft-java-4.1.0](https://github.com/truecharts/charts/compare/minecraft-java-4.0.24...minecraft-java-4.1.0) (2023-06-01)
+
+### Chore
+
+- Add AUTO_CURSEFORGE options ([#8147](https://github.com/truecharts/charts/issues/8147))
+  
+  
+
+
 ## [minecraft-java-4.0.24](https://github.com/truecharts/charts/compare/minecraft-java-4.0.23...minecraft-java-4.0.24) (2023-05-29)
 
 ### Chore
@@ -27,15 +36,6 @@
 ### Chore
 
 - update helm general non-major ([#9156](https://github.com/truecharts/charts/issues/9156))
-  
-  
-
-
-## [minecraft-java-4.0.21](https://github.com/truecharts/charts/compare/minecraft-java-4.0.20...minecraft-java-4.0.21) (2023-05-25)
-
-### Chore
-
-- update container image tccr.io/truecharts/minecraft-java19 to latest ([#9149](https://github.com/truecharts/charts/issues/9149))
   
   
 
