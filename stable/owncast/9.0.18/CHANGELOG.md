@@ -4,6 +4,19 @@
 
 
 
+## [owncast-9.0.18](https://github.com/truecharts/charts/compare/owncast-9.0.17...owncast-9.0.18) (2023-06-01)
+
+### Chore
+
+- update container image tccr.io/truecharts/owncast to v0.1.0 ([#9320](https://github.com/truecharts/charts/issues/9320))
+  
+  ### Feat
+
+- hide advanced ingress options behind checbox ([#9203](https://github.com/truecharts/charts/issues/9203))
+  
+  
+
+
 ## [owncast-9.0.17](https://github.com/truecharts/charts/compare/owncast-9.0.16...owncast-9.0.17) (2023-05-27)
 
 ### Chore
@@ -84,16 +97,3 @@
   
   
 
-
-## [owncast-9.0.8](https://github.com/truecharts/charts/compare/owncast-9.0.7...owncast-9.0.8) (2023-04-25)
-
-### Chore
-
-- update helm general non-major ([#8145](https://github.com/truecharts/charts/issues/8145))
-  
-  
-
-
-## [owncast-9.0.7](https://github.com/truecharts/charts/compare/owncast-9.0.6...owncast-9.0.7) (2023-04-20)
-
-### Chore
