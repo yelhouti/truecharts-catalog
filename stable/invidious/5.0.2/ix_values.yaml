@@ -170,7 +170,7 @@ cnpg:
     database: invidious
     # DB User cannot be changed
     # hardcoded from upstream
-    username: kemal
+    user: kemal
 
 portal:
   open:
