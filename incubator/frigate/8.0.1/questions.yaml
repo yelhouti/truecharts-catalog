@@ -175,7 +175,6 @@ questions:
                       label: Enabled
                       schema:
                         type: boolean
-                        show_if: [["enabled", "=", true]]
                         default: true
                     - variable: host
                       label: Host
