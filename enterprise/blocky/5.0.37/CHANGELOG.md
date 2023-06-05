@@ -4,6 +4,15 @@
 
 
 
+## [blocky-5.0.37](https://github.com/truecharts/charts/compare/blocky-5.0.36...blocky-5.0.37) (2023-06-05)
+
+### Fix
+
+- fix tpl ([#9396](https://github.com/truecharts/charts/issues/9396))
+  
+  
+
+
 ## [blocky-5.0.36](https://github.com/truecharts/charts/compare/blocky-5.0.35...blocky-5.0.36) (2023-06-04)
 
 ### Chore
@@ -86,14 +95,5 @@
 
 
 ## [blocky-5.0.27](https://github.com/truecharts/charts/compare/blocky-5.0.26...blocky-5.0.27) (2023-05-03)
-
-### Chore
-
-- update helm general non-major ([#8739](https://github.com/truecharts/charts/issues/8739))
-  
-  
-
-
-## [blocky-5.0.26](https://github.com/truecharts/charts/compare/blocky-5.0.25...blocky-5.0.26) (2023-04-25)
 
 ### Chore
