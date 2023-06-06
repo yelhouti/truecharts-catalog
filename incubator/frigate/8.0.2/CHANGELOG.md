@@ -4,6 +4,15 @@
 
 
 
+## [frigate-8.0.2](https://github.com/truecharts/charts/compare/frigate-8.0.1...frigate-8.0.2) (2023-06-06)
+
+### Fix
+
+- Fix questions default value ([#9414](https://github.com/truecharts/charts/issues/9414))
+  
+  
+
+
 ## [frigate-8.0.1](https://github.com/truecharts/charts/compare/frigate-8.0.0...frigate-8.0.1) (2023-06-04)
 
 
@@ -88,12 +97,3 @@
 
 
 ## [frigate-5.0.11](https://github.com/truecharts/charts/compare/frigate-5.0.10...frigate-5.0.11) (2022-12-19)
-
-### Chore
-
-- update helm general non-major
-  
-  
-
-
-## [frigate-5.0.10](https://github.com/truecharts/charts/compare/frigate-5.0.9...frigate-5.0.10) (2022-12-13)
