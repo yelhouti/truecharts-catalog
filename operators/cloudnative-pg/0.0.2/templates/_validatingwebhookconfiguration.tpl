@@ -1,14 +1,14 @@
-{{- define "cnpg.webhooks.mutating" -}}
-{{- if .Values.webhook.mutating.create }}
+{{- define "cnpg.webhooks.validating" -}}
+{{- if .Values.webhook.validating.create }}
 {{- $cnpgLabels := .Values.webhook.validating.labels -}}
 {{- $cnpgAnnotations := .Values.webhook.validating.annotations -}}
 {{- $labels := (mustMerge ($cnpgLabels | default dict) (include "tc.v1.common.lib.metadata.allLabels" $ | fromYaml)) }}
 {{- $annotations := (mustMerge ($cnpgAnnotations | default dict) (include "tc.v1.common.lib.metadata.allAnnotations" $ | fromYaml)) }}
 ---
 apiVersion: admissionregistration.k8s.io/v1
-kind: MutatingWebhookConfiguration
+kind: ValidatingWebhookConfiguration
 metadata:
-  name: cnpg-mutating-webhook-configuration
+  name: cnpg-validating-webhook-configuration
   {{- with (include "tc.v1.common.lib.metadata.render" (dict "rootCtx" $ "labels" $labels) | trim) }}
   labels:
     {{- . | nindent 4 }}
@@ -22,12 +22,12 @@ webhooks:
   - v1
   clientConfig:
     service:
-      name: {{ include "tc.v1.common.lib.chart.names.fullname" $ }}
+      name: cnpg-webhook-service
       namespace: {{ .Release.Namespace }}
-      path: /mutate-postgresql-cnpg-io-v1-backup
+      path: /validate-postgresql-cnpg-io-v1-backup
       port: {{ .Values.service.main.ports.main.port }}
-  failurePolicy: {{ .Values.webhook.mutating.failurePolicy }}
-  name: mbackup.kb.io
+  failurePolicy: {{ .Values.webhook.validating.failurePolicy }}
+  name: vbackup.kb.io
   rules:
   - apiGroups:
     - postgresql.cnpg.io
@@ -43,12 +43,12 @@ webhooks:
   - v1
   clientConfig:
     service:
-      name: {{ include "tc.v1.common.lib.chart.names.fullname" $ }}
+      name: cnpg-webhook-service
       namespace: {{ .Release.Namespace }}
-      path: /mutate-postgresql-cnpg-io-v1-cluster
+      path: /validate-postgresql-cnpg-io-v1-cluster
       port: {{ .Values.service.main.ports.main.port }}
-  failurePolicy: {{ .Values.webhook.mutating.failurePolicy }}
-  name: mcluster.kb.io
+  failurePolicy: {{ .Values.webhook.validating.failurePolicy }}
+  name: vcluster.kb.io
   rules:
   - apiGroups:
     - postgresql.cnpg.io
@@ -64,12 +64,12 @@ webhooks:
   - v1
   clientConfig:
     service:
-      name: {{ include "tc.v1.common.lib.chart.names.fullname" $ }}
+      name: cnpg-webhook-service
       namespace: {{ .Release.Namespace }}
-      path: /mutate-postgresql-cnpg-io-v1-scheduledbackup
+      path: /validate-postgresql-cnpg-io-v1-scheduledbackup
       port: {{ .Values.service.main.ports.main.port }}
-  failurePolicy: {{ .Values.webhook.mutating.failurePolicy }}
-  name: mscheduledbackup.kb.io
+  failurePolicy: {{ .Values.webhook.validating.failurePolicy }}
+  name: vscheduledbackup.kb.io
   rules:
   - apiGroups:
     - postgresql.cnpg.io
@@ -80,6 +80,27 @@ webhooks:
     - UPDATE
     resources:
     - scheduledbackups
+  sideEffects: None
+- admissionReviewVersions:
+    - v1
+  clientConfig:
+    service:
+      name: cnpg-webhook-service
+      namespace: {{ .Release.Namespace }}
+      path: /validate-postgresql-cnpg-io-v1-pooler
+      port: {{ .Values.service.main.ports.main.port }}
+  failurePolicy: {{ .Values.webhook.validating.failurePolicy }}
+  name: vpooler.kb.io
+  rules:
+    - apiGroups:
+        - postgresql.cnpg.io
+      apiVersions:
+        - v1
+      operations:
+        - CREATE
+        - UPDATE
+      resources:
+        - poolers
   sideEffects: None
 {{- end }}
 {{- end -}}
