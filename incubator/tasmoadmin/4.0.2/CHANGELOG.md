@@ -4,6 +4,15 @@
 
 
 
+## [tasmoadmin-4.0.2](https://github.com/truecharts/charts/compare/tasmoadmin-4.0.1...tasmoadmin-4.0.2) (2023-06-06)
+
+### Fix
+
+- fix envVar and update image version ([#9415](https://github.com/truecharts/charts/issues/9415))
+  
+  
+
+
 ## [tasmoadmin-4.0.1](https://github.com/truecharts/charts/compare/tasmoadmin-4.0.0...tasmoadmin-4.0.1) (2023-06-04)
 
 ### Chore
@@ -87,13 +96,4 @@
 
 
 ## [tasmoadmin-2.0.4](https://github.com/truecharts/charts/compare/tasmoadmin-2.0.3...tasmoadmin-2.0.4) (2022-12-19)
-
-### Chore
-
-- update helm general non-major
-  
-  
-
-
-## [tasmoadmin-2.0.3](https://github.com/truecharts/charts/compare/tasmoadmin-2.0.2...tasmoadmin-2.0.3) (2022-12-13)
 
