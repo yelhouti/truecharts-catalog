@@ -4,6 +4,15 @@
 
 
 
+## [rdesktop-4.0.34](https://github.com/truecharts/charts/compare/rdesktop-4.0.33...rdesktop-4.0.34) (2023-06-06)
+
+### Chore
+
+- update rdesktop ([#9442](https://github.com/truecharts/charts/issues/9442))
+  
+  
+
+
 ## [rdesktop-4.0.33](https://github.com/truecharts/charts/compare/rdesktop-4.0.32...rdesktop-4.0.33) (2023-06-05)
 
 ### Chore
@@ -59,15 +68,6 @@
 ### Chore
 
 - update helm general non-major ([#9156](https://github.com/truecharts/charts/issues/9156))
-  
-  
-
-
-## [rdesktop-4.0.27](https://github.com/truecharts/charts/compare/rdesktop-4.0.26...rdesktop-4.0.27) (2023-05-25)
-
-### Chore
-
-- update rdesktop ([#9155](https://github.com/truecharts/charts/issues/9155))
   
   
 
