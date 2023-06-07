@@ -4,6 +4,15 @@
 
 
 
+## [ubooquity-6.0.14](https://github.com/truecharts/charts/compare/ubooquity-6.0.13...ubooquity-6.0.14) (2023-06-07)
+
+### Chore
+
+- update container image tccr.io/truecharts/ubooquity to v2.1.2 ([#9451](https://github.com/truecharts/charts/issues/9451))
+  
+  
+
+
 ## [ubooquity-6.0.13](https://github.com/truecharts/charts/compare/ubooquity-6.0.12...ubooquity-6.0.13) (2023-06-07)
 
 ### Chore
@@ -86,14 +95,5 @@
 ### Feat
 
 - Add Global Pod Options ([#9007](https://github.com/truecharts/charts/issues/9007))
-  
-  
-
-
-## [ubooquity-6.0.5](https://github.com/truecharts/charts/compare/ubooquity-6.0.4...ubooquity-6.0.5) (2023-05-16)
-
-### Chore
-
-- update helm general non-major ([#8979](https://github.com/truecharts/charts/issues/8979))
   
   

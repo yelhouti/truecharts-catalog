@@ -4,6 +4,15 @@
 
 
 
+## [wordpress-2.0.12](https://github.com/truecharts/charts/compare/wordpress-2.0.11...wordpress-2.0.12) (2023-06-07)
+
+### Chore
+
+- update container image tccr.io/truecharts/wordpress to v6.2.2 ([#9452](https://github.com/truecharts/charts/issues/9452))
+  
+  
+
+
 ## [wordpress-2.0.11](https://github.com/truecharts/charts/compare/wordpress-2.0.10...wordpress-2.0.11) (2023-06-07)
 
 ### Chore
@@ -86,14 +95,5 @@
 ### Chore
 
 - update helm general non-major ([#9089](https://github.com/truecharts/charts/issues/9089))
-  
-  
-
-
-## [wordpress-2.0.2](https://github.com/truecharts/charts/compare/wordpress-2.0.1...wordpress-2.0.2) (2023-05-22)
-
-### Feat
-
-- Add Global Pod Options ([#9007](https://github.com/truecharts/charts/issues/9007))
   
   
