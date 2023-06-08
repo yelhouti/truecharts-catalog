@@ -1,13 +1,13 @@
 apiVersion: v2
 appVersion: "0.13.9"
 deprecated: false
-description: Prometheus Operator is an operator for prometheus
-home: https://truecharts.org/charts/operators/prometheus-operator
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/prometheus-operator
+description: CloudNativePG is a clustered postgresql database operator
+home: https://truecharts.org/charts/operators/cloudnative-pg
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/cloudnative-pg.png
 keywords:
-  - operator
-  - prometheus
-  - metics
+  - database
+  - cloudnative-pg
+  - cnpg
 dependencies:
   - name: common
     repository: https://library-charts.truecharts.org
@@ -17,12 +17,13 @@ maintainers:
   - email: info@truecharts.org
     name: TrueCharts
     url: https://truecharts.org
-name: prometheus-operator
+name: cloudnative-pg
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/operators/prometheus-operator
-  - https://github.com/prometheus-operator
+  - https://github.com/truecharts/charts/tree/master/charts/operators/cloudnative-pg
+  - https://github.com/cloudnative-pg
+  - https://cloudnative-pg.io/
 type: application
-version: 0.0.1
+version: 1.0.0
 annotations:
   truecharts.org/catagories: |
     - operators
