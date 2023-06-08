@@ -1,13 +1,12 @@
 apiVersion: v2
 appVersion: "0.13.9"
 deprecated: false
-description: Prometheus Operator is an operator for prometheus
-home: https://truecharts.org/charts/operators/prometheus-operator
-icon: https://truecharts.org/img/hotlink-ok/chart-icons/prometheus-operator
+description: A network load-balancer implementation for Kubernetes using standard routing protocols
+home: https://truecharts.org/charts/operators/metallb
+icon: https://truecharts.org/img/hotlink-ok/chart-icons/metallb.png
 keywords:
-  - operator
-  - prometheus
-  - metics
+  - metallb
+  - loadbalancer
 dependencies:
   - name: common
     repository: https://library-charts.truecharts.org
@@ -17,12 +16,13 @@ maintainers:
   - email: info@truecharts.org
     name: TrueCharts
     url: https://truecharts.org
-name: prometheus-operator
+name: metallb
 sources:
-  - https://github.com/truecharts/charts/tree/master/charts/operators/prometheus-operator
-  - https://github.com/prometheus-operator
+  - https://github.com/truecharts/charts/tree/master/charts/operators/metallb
+  - https://github.com/metallb/metallb
+  - https://metallb.universe.tf
 type: application
-version: 0.0.3
+version: 9.0.11
 annotations:
   truecharts.org/catagories: |
     - operators
