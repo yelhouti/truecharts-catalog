@@ -1,4 +1,4 @@
-A Spigot BungeeCord server.
+the front-end of a cluster of minecraft-java containers.
 
 This App is supplied by TrueCharts, for more information visit the manual: [https://truecharts.org/charts/stable/minecraft-bungeecord](https://truecharts.org/charts/stable/minecraft-bungeecord)
 
