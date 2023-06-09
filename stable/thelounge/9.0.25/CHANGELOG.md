@@ -4,6 +4,15 @@
 
 
 
+## [thelounge-9.0.25](https://github.com/truecharts/charts/compare/thelounge-9.0.24...thelounge-9.0.25) (2023-06-09)
+
+### Chore
+
+- update container image tccr.io/truecharts/thelounge to v4.4.0 ([#9537](https://github.com/truecharts/charts/issues/9537))
+  
+  
+
+
 ## [thelounge-9.0.24](https://github.com/truecharts/charts/compare/thelounge-9.0.23...thelounge-9.0.24) (2023-06-07)
 
 ### Chore
@@ -85,15 +94,6 @@
 ### Chore
 
 - update container image tccr.io/truecharts/thelounge to v4.3.1 ([#9083](https://github.com/truecharts/charts/issues/9083))
-  
-  
-
-
-## [thelounge-9.0.15](https://github.com/truecharts/charts/compare/thelounge-9.0.14...thelounge-9.0.15) (2023-05-22)
-
-### Feat
-
-- Add Global Pod Options ([#9007](https://github.com/truecharts/charts/issues/9007))
   
   
 
