@@ -4,6 +4,15 @@
 
 
 
+## [quassel-core-7.0.24](https://github.com/truecharts/charts/compare/quassel-core-7.0.23...quassel-core-7.0.24) (2023-06-09)
+
+### Chore
+
+- update container image tccr.io/truecharts/quassel-core to v0.14.0 ([#9438](https://github.com/truecharts/charts/issues/9438))
+  
+  
+
+
 ## [quassel-core-7.0.23](https://github.com/truecharts/charts/compare/quassel-core-7.0.22...quassel-core-7.0.23) (2023-06-07)
 
 ### Chore
@@ -86,14 +95,5 @@
 ### Feat
 
 - Add Global Pod Options ([#9007](https://github.com/truecharts/charts/issues/9007))
-  
-  
-
-
-## [quassel-core-7.0.14](https://github.com/truecharts/charts/compare/quassel-core-7.0.13...quassel-core-7.0.14) (2023-05-16)
-
-### Chore
-
-- update container image tccr.io/truecharts/quassel-core to v0.14.0 ([#8988](https://github.com/truecharts/charts/issues/8988))
   
   
