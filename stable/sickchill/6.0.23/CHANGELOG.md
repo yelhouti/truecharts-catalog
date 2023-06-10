@@ -4,6 +4,15 @@
 
 
 
+## [sickchill-6.0.23](https://github.com/truecharts/charts/compare/sickchill-6.0.22...sickchill-6.0.23) (2023-06-10)
+
+### Chore
+
+- update container image tccr.io/truecharts/sickchill to v2023.5.30 ([#9553](https://github.com/truecharts/charts/issues/9553))
+  
+  
+
+
 ## [sickchill-6.0.22](https://github.com/truecharts/charts/compare/sickchill-6.0.21...sickchill-6.0.22) (2023-06-07)
 
 ### Chore
@@ -85,15 +94,6 @@
 ### Chore
 
 - update helm general non-major ([#8979](https://github.com/truecharts/charts/issues/8979))
-  
-  
-
-
-## [sickchill-6.0.13](https://github.com/truecharts/charts/compare/sickchill-6.0.12...sickchill-6.0.13) (2023-05-05)
-
-### Chore
-
-- update helm general non-major ([#8782](https://github.com/truecharts/charts/issues/8782))
   
   
 
