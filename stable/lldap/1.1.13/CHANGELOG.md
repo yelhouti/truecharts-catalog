@@ -4,6 +4,15 @@
 
 
 
+## [lldap-1.1.13](https://github.com/truecharts/charts/compare/lldap-1.1.12...lldap-1.1.13) (2023-06-10)
+
+### Fix
+
+- missing additional_attrs ([#9572](https://github.com/truecharts/charts/issues/9572))
+  
+  
+
+
 ## [lldap-1.1.12](https://github.com/truecharts/charts/compare/lldap-1.1.11...lldap-1.1.12) (2023-06-07)
 
 ### Chore
@@ -85,15 +94,6 @@
 ### Feat
 
 - Add Global Pod Options ([#9007](https://github.com/truecharts/charts/issues/9007))
-  
-  
-
-
-## [lldap-1.1.3](https://github.com/truecharts/charts/compare/lldap-1.1.2...lldap-1.1.3) (2023-05-16)
-
-### Chore
-
-- update helm general non-major ([#8979](https://github.com/truecharts/charts/issues/8979))
   
   
 
