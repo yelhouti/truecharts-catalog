@@ -4,6 +4,15 @@
 
 
 
+## [rdesktop-4.0.42](https://github.com/truecharts/charts/compare/rdesktop-4.0.41...rdesktop-4.0.42) (2023-06-11)
+
+### Chore
+
+- update container image tccr.io/truecharts/rdesktop-arch-openbox to latest ([#9586](https://github.com/truecharts/charts/issues/9586))
+  
+  
+
+
 ## [rdesktop-4.0.41](https://github.com/truecharts/charts/compare/rdesktop-4.0.40...rdesktop-4.0.41) (2023-06-11)
 
 ### Chore
@@ -88,12 +97,3 @@
 
 ## [rdesktop-4.0.32](https://github.com/truecharts/charts/compare/rdesktop-4.0.31...rdesktop-4.0.32) (2023-06-04)
 
-### Chore
-
-- update rdesktop ([#9392](https://github.com/truecharts/charts/issues/9392))
-  
-  ### Feat
-
-- hide advanced ingress options behind checbox ([#9203](https://github.com/truecharts/charts/issues/9203))
-  
-  
