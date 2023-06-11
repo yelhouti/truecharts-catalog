@@ -4,6 +4,15 @@
 
 
 
+## [minecraft-java-4.1.5](https://github.com/truecharts/charts/compare/minecraft-java-4.1.4...minecraft-java-4.1.5) (2023-06-11)
+
+### Chore
+
+- update minecraft-java (minor) ([#9591](https://github.com/truecharts/charts/issues/9591))
+  
+  
+
+
 ## [minecraft-java-4.1.4](https://github.com/truecharts/charts/compare/minecraft-java-4.1.3...minecraft-java-4.1.4) (2023-06-11)
 
 ### Chore
@@ -73,15 +82,6 @@
 ### Chore
 
 - update helm general non-major ([#9156](https://github.com/truecharts/charts/issues/9156))
-  
-  
-
-
-## [minecraft-java-4.0.21](https://github.com/truecharts/charts/compare/minecraft-java-4.0.20...minecraft-java-4.0.21) (2023-05-25)
-
-### Chore
-
-- update container image tccr.io/truecharts/minecraft-java19 to latest ([#9149](https://github.com/truecharts/charts/issues/9149))
   
   
 
