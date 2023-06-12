@@ -4,6 +4,15 @@
 
 
 
+## [paperless-ngx-1.0.27](https://github.com/truecharts/charts/compare/paperless-ngx-1.0.26...paperless-ngx-1.0.27) (2023-06-12)
+
+### Chore
+
+- update container image tccr.io/truecharts/paperless-ng to v1.15.1 ([#9596](https://github.com/truecharts/charts/issues/9596))
+  
+  
+
+
 ## [paperless-ngx-1.0.26](https://github.com/truecharts/charts/compare/paperless-ngx-1.0.25...paperless-ngx-1.0.26) (2023-06-11)
 
 ### Chore
@@ -85,15 +94,6 @@
 ### Chore
 
 - update helm general non-major ([#9089](https://github.com/truecharts/charts/issues/9089))
-  
-  
-
-
-## [paperless-ngx-1.0.17](https://github.com/truecharts/charts/compare/paperless-ngx-1.0.16...paperless-ngx-1.0.17) (2023-05-22)
-
-### Feat
-
-- Add Global Pod Options ([#9007](https://github.com/truecharts/charts/issues/9007))
   
   
 
