@@ -1,0 +1,55 @@
+image:
+  repository: tccr.io/truecharts/homepage
+  tag: v0.6.21@sha256:93feeae4a1ecb1a2afcfca8e2b5ebddbe3af9c81ead3e3b0bced83df813642aa
+  pullPolicy: IfNotPresent
+service:
+  main:
+    ports:
+      main:
+        port: 10352
+        protocol: http
+        targetPort: 3000
+persistence:
+  config:
+    enabled: true
+    mountPath: /app/config
+portal:
+  open:
+    enabled: true
+
+serviceAccount:
+  main:
+    enabled: true
+    primary: true
+
+rbac:
+  main:
+    enabled: true
+    primary: true
+    clusterWide: true
+    rules:
+      - apiGroups:
+          - ""
+        resources:
+          - namespaces
+          - pods
+          - nodes
+        verbs:
+          - get
+          - list
+      - apiGroups:
+          - extensions
+          - networking.k8s.io
+        resources:
+          - ingresses
+        verbs:
+          - get
+          - list
+      - apiGroups:
+          - metrics.k8s.io
+        resources:
+          - nodes
+          - pods
+        verbs:
+          - get
+          - list
