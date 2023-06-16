@@ -4,6 +4,15 @@
 
 
 
+## [cloudflareddns-5.0.25](https://github.com/truecharts/charts/compare/cloudflareddns-5.0.24...cloudflareddns-5.0.25) (2023-06-16)
+
+### Chore
+
+- update container image tccr.io/truecharts/cloudflareddns to latest ([#9702](https://github.com/truecharts/charts/issues/9702))
+  
+  
+
+
 ## [cloudflareddns-5.0.24](https://github.com/truecharts/charts/compare/cloudflareddns-5.0.23...cloudflareddns-5.0.24) (2023-06-13)
 
 ### Chore
@@ -88,12 +97,3 @@
 ## [cloudflareddns-5.0.15](https://github.com/truecharts/charts/compare/cloudflareddns-5.0.14...cloudflareddns-5.0.15) (2023-05-22)
 
 ### Feat
-
-- Add Global Pod Options ([#9007](https://github.com/truecharts/charts/issues/9007))
-  
-  
-
-
-## [cloudflareddns-5.0.14](https://github.com/truecharts/charts/compare/cloudflareddns-5.0.13...cloudflareddns-5.0.14) (2023-05-16)
-
-### Chore
