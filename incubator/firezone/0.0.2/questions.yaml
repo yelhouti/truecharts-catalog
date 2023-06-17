@@ -824,8 +824,38 @@ questions:
                 description: Automatically set permissions on install
                 schema:
                   show_if: [["type", "=", "hostPath"]]
+                  hidden: true
                   type: boolean
                   default: false
+              - variable: autoPermissions
+                label: Automatic Permissions Configuration
+                description: Automatically set permissions
+                schema:
+                  show_if: [["type", "!=", "pvc"]]
+                  type: dict
+                  additional_attrs: true
+                  attrs:
+                    - variable: chown
+                      label: Run CHOWN
+                      description: |
+                        It will run CHOWN on the path with the given fsGroup
+                      schema:
+                        type: boolean
+                        default: false
+                    - variable: chmod
+                      label: Run CHMOD
+                      description: |
+                        It will run CHMOD on the path with the given value
+                      schema:
+                        type: string
+                        default: "775"
+                    - variable: recursive
+                      label: Recursive
+                      description: |
+                        It will run CHOWN and CHMOD recursively
+                      schema:
+                        type: boolean
+                        default: false
               - variable: readOnly
                 label: Read Only
                 schema:
@@ -1391,41 +1421,6 @@ questions:
                   type: string
                   default: workaround
                   hidden: true
-  - variable: metrics
-    group: Metrics
-    label: Prometheus Metrics
-    schema:
-      additional_attrs: true
-      type: dict
-      attrs:
-        - variable: main
-          label: Main Metrics
-          schema:
-            additional_attrs: true
-            type: dict
-            attrs:
-              - variable: enabled
-                label: Enabled
-                description: Enable Prometheus Metrics
-                schema:
-                  type: boolean
-                  default: true
-                  show_subquestions_if: true
-                  subquestions:
-                    - variable: prometheusRule
-                      label: PrometheusRule
-                      description: Enable and configure Prometheus Rules for the App.
-                      schema:
-                        additional_attrs: true
-                        type: dict
-                        attrs:
-                          - variable: enabled
-                            label: Enabled
-                            description: Enable Prometheus Metrics
-                            schema:
-                              type: boolean
-                              default: false
-                          # TODO: Rule List section
 #  - variable: horizontalPodAutoscaler
 #    group: Advanced
 #    label: (Advanced) Horizontal Pod Autoscaler
