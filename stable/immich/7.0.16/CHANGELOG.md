@@ -4,6 +4,15 @@
 
 
 
+## [immich-7.0.16](https://github.com/truecharts/charts/compare/immich-7.0.15...immich-7.0.16) (2023-06-20)
+
+### Chore
+
+- update immich to v1.62.1 (minor) ([#9791](https://github.com/truecharts/charts/issues/9791))
+  
+  
+
+
 ## [immich-7.0.15](https://github.com/truecharts/charts/compare/immich-7.0.14...immich-7.0.15) (2023-06-13)
 
 ### Chore
@@ -85,15 +94,6 @@
   ### Feat
 
 - hide advanced ingress options behind checbox ([#9203](https://github.com/truecharts/charts/issues/9203))
-  
-  
-
-
-## [immich-7.0.6](https://github.com/truecharts/charts/compare/immich-7.0.5...immich-7.0.6) (2023-05-27)
-
-### Chore
-
-- update helm general non-major ([#9197](https://github.com/truecharts/charts/issues/9197))
   
   
 
