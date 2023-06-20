@@ -93,6 +93,7 @@ questions:
                               additional_attrs: true
                               type: dict
                               attrs:
+
                                 - variable: imageSelector
                                   label: Select Image
                                   schema:
@@ -101,8 +102,10 @@ questions:
                                     enum:
                                       - value: image
                                         description: Java 17 HotSpot
-                                      - value: j19Image
-                                        description: Java 19 HotSpot
+                                      - value: j20Image
+                                        description: Java 20 HotSpot
+                                      - value: j20AlpineImage
+                                        description: Java 20 Alpine
                                       - value: j17j9Image
                                         description: Java 17 OpenJ9
                                       - value: j17jdkImage
@@ -110,7 +113,7 @@ questions:
                                       - value: j17gceImage
                                         description: Java 17 GraalVM CE
                                       - value: j17alpineImage
-                                        description: Java 17 Hotspot(Alpine)
+                                        description: Java 17 Alpine
                                       - value: j11jdkImage
                                         description: Java 11 JDK
                                       - value: j11Image
@@ -884,6 +887,19 @@ questions:
                               type: int
                               default: 25565
                               required: true
+                    - variable: query
+                      label: Query Service Port Configuration
+                      schema:
+                        additional_attrs: true
+                        type: dict
+                        attrs:
+                          - variable: port
+                            label: Port
+                            description: This port exposes the container port on the service
+                            schema:
+                              type: int
+                              default: 25565
+                              required: true
         - variable: rcon
           label: RCON Service
           description: The RCON service.
@@ -953,6 +969,7 @@ questions:
                 description: Interface Configuration
                 label: Interface Configuration
                 schema:
+                  additional_attrs: true
                   type: dict
                   $ref:
                     - "normalize/interfaceConfiguration"
@@ -969,6 +986,7 @@ questions:
                       description: Define how IP Address will be managed
                       label: IP Address Management
                       schema:
+                        additional_attrs: true
                         type: dict
                         required: true
                         attrs:
@@ -1199,8 +1217,38 @@ questions:
                 description: Automatically set permissions on install
                 schema:
                   show_if: [["type", "=", "hostPath"]]
+                  hidden: true
                   type: boolean
                   default: false
+              - variable: autoPermissions
+                label: Automatic Permissions Configuration
+                description: Automatically set permissions
+                schema:
+                  show_if: [["type", "!=", "pvc"]]
+                  type: dict
+                  additional_attrs: true
+                  attrs:
+                    - variable: chown
+                      label: Run CHOWN
+                      description: |
+                        It will run CHOWN on the path with the given fsGroup
+                      schema:
+                        type: boolean
+                        default: false
+                    - variable: chmod
+                      label: Run CHMOD
+                      description: |
+                        It will run CHMOD on the path with the given value
+                      schema:
+                        type: string
+                        default: "775"
+                    - variable: recursive
+                      label: Recursive
+                      description: |
+                        It will run CHOWN and CHMOD recursively
+                      schema:
+                        type: boolean
+                        default: false
               - variable: readOnly
                 label: Read Only
                 schema:
@@ -1339,13 +1387,13 @@ questions:
                 description: "The UserID of the user running the application"
                 schema:
                   type: int
-                  default: 0
+                  default: 568
               - variable: runAsGroup
                 label: "runAsGroup"
                 description: "The groupID of the user running the application"
                 schema:
                   type: int
-                  default: 0
+                  default: 568
               # Settings from questions.yaml get appended here on a per-app basis
               - variable: PUID
                 label: Process User ID - PUID
@@ -1520,6 +1568,7 @@ questions:
               - variable: gpu
                 label: Select GPU
                 schema:
+                  additional_attrs: true
                   type: dict
                   $ref:
                     - "definitions/gpuConfiguration"
@@ -2107,6 +2156,7 @@ questions:
               - variable: openvpn
                 label: OpenVPN Settings
                 schema:
+                  additional_attrs: true
                   type: dict
                   show_if: [["type", "=", "openvpn"]]
                   attrs:
@@ -2127,6 +2177,7 @@ questions:
               - variable: tailscale
                 label: Tailscale Settings
                 schema:
+                  additional_attrs: true
                   type: dict
                   show_if: [["type", "=", "tailscale"]]
                   attrs:
