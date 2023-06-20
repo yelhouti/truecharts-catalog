@@ -4,6 +4,15 @@
 
 
 
+## [immich-7.1.0](https://github.com/truecharts/charts/compare/immich-7.0.16...immich-7.1.0) (2023-06-20)
+
+### Chore
+
+- Only pass secrets to containers that need them and mount files only where needed ([#9697](https://github.com/truecharts/charts/issues/9697))
+  
+  
+
+
 ## [immich-7.0.16](https://github.com/truecharts/charts/compare/immich-7.0.15...immich-7.0.16) (2023-06-20)
 
 ### Chore
@@ -88,12 +97,3 @@
 ## [immich-7.0.7](https://github.com/truecharts/charts/compare/immich-7.0.6...immich-7.0.7) (2023-05-29)
 
 ### Chore
-
-- update immich to v1.58.0 (minor) ([#9282](https://github.com/truecharts/charts/issues/9282))
-  
-  ### Feat
-
-- hide advanced ingress options behind checbox ([#9203](https://github.com/truecharts/charts/issues/9203))
-  
-  
-
