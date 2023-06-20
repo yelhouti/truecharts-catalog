@@ -4,6 +4,15 @@
 
 
 
+## [webtop-5.0.41](https://github.com/truecharts/charts/compare/webtop-5.0.40...webtop-5.0.41) (2023-06-20)
+
+### Chore
+
+- update helm general non-major ([#9780](https://github.com/truecharts/charts/issues/9780))
+  
+  
+
+
 ## [webtop-5.0.40](https://github.com/truecharts/charts/compare/webtop-5.0.39...webtop-5.0.40) (2023-06-20)
 
 ### Chore
@@ -27,15 +36,6 @@
 ### Chore
 
 - update container image tccr.io/truecharts/webtop to latest ([#9779](https://github.com/truecharts/charts/issues/9779))
-  
-  
-
-
-## [webtop-5.0.37](https://github.com/truecharts/charts/compare/webtop-5.0.36...webtop-5.0.37) (2023-06-14)
-
-### Chore
-
-- update webtop ([#9637](https://github.com/truecharts/charts/issues/9637))
   
   
 
