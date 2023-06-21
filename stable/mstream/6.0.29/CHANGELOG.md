@@ -4,6 +4,15 @@
 
 
 
+## [mstream-6.0.29](https://github.com/truecharts/charts/compare/mstream-6.0.28...mstream-6.0.29) (2023-06-21)
+
+### Chore
+
+- update container image tccr.io/truecharts/mstream to v5.11.4 ([#9804](https://github.com/truecharts/charts/issues/9804))
+  
+  
+
+
 ## [mstream-6.0.28](https://github.com/truecharts/charts/compare/mstream-6.0.27...mstream-6.0.28) (2023-06-16)
 
 ### Chore
@@ -86,14 +95,5 @@
 ### Chore
 
 - update helm general non-major ([#9156](https://github.com/truecharts/charts/issues/9156))
-  
-  
-
-
-## [mstream-6.0.19](https://github.com/truecharts/charts/compare/mstream-6.0.18...mstream-6.0.19) (2023-05-25)
-
-### Chore
-
-- update container image tccr.io/truecharts/mstream to v5.11.4 ([#9151](https://github.com/truecharts/charts/issues/9151))
   
   
