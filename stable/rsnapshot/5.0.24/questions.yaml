@@ -239,6 +239,7 @@ questions:
                 description: Interface Configuration
                 label: Interface Configuration
                 schema:
+                  additional_attrs: true
                   type: dict
                   $ref:
                     - "normalize/interfaceConfiguration"
@@ -255,6 +256,7 @@ questions:
                       description: Define how IP Address will be managed
                       label: IP Address Management
                       schema:
+                        additional_attrs: true
                         type: dict
                         required: true
                         attrs:
@@ -485,8 +487,38 @@ questions:
                 description: Automatically set permissions on install
                 schema:
                   show_if: [["type", "=", "hostPath"]]
+                  hidden: true
                   type: boolean
                   default: false
+              - variable: autoPermissions
+                label: Automatic Permissions Configuration
+                description: Automatically set permissions
+                schema:
+                  show_if: [["type", "!=", "pvc"]]
+                  type: dict
+                  additional_attrs: true
+                  attrs:
+                    - variable: chown
+                      label: Run CHOWN
+                      description: |
+                        It will run CHOWN on the path with the given fsGroup
+                      schema:
+                        type: boolean
+                        default: false
+                    - variable: chmod
+                      label: Run CHMOD
+                      description: |
+                        It will run CHMOD on the path with the given value
+                      schema:
+                        type: string
+                        default: "775"
+                    - variable: recursive
+                      label: Recursive
+                      description: |
+                        It will run CHOWN and CHMOD recursively
+                      schema:
+                        type: boolean
+                        default: false
               - variable: readOnly
                 label: Read Only
                 schema:
@@ -806,6 +838,7 @@ questions:
               - variable: gpu
                 label: Select GPU
                 schema:
+                  additional_attrs: true
                   type: dict
                   $ref:
                     - "definitions/gpuConfiguration"
@@ -1393,6 +1426,7 @@ questions:
               - variable: openvpn
                 label: OpenVPN Settings
                 schema:
+                  additional_attrs: true
                   type: dict
                   show_if: [["type", "=", "openvpn"]]
                   attrs:
@@ -1413,6 +1447,7 @@ questions:
               - variable: tailscale
                 label: Tailscale Settings
                 schema:
+                  additional_attrs: true
                   type: dict
                   show_if: [["type", "=", "tailscale"]]
                   attrs:
