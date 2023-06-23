@@ -4,6 +4,15 @@
 
 
 
+## [mylar-9.0.29](https://github.com/truecharts/charts/compare/mylar-9.0.28...mylar-9.0.29) (2023-06-23)
+
+### Chore
+
+- update container image tccr.io/truecharts/mylar3 to v0.7.2 ([#9845](https://github.com/truecharts/charts/issues/9845))
+  
+  
+
+
 ## [mylar-9.0.28](https://github.com/truecharts/charts/compare/mylar-9.0.27...mylar-9.0.28) (2023-06-18)
 
 ### Chore
@@ -86,14 +95,5 @@
 ### Chore
 
 - update helm general non-major ([#9156](https://github.com/truecharts/charts/issues/9156))
-  
-  
-
-
-## [mylar-9.0.19](https://github.com/truecharts/charts/compare/mylar-9.0.18...mylar-9.0.19) (2023-05-26)
-
-### Chore
-
-- update container image tccr.io/truecharts/mylar3 to v0.7.2 ([#9173](https://github.com/truecharts/charts/issues/9173))
   
   
