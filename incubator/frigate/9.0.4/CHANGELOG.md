@@ -4,6 +4,15 @@
 
 
 
+## [frigate-9.0.4](https://github.com/truecharts/charts/compare/frigate-9.0.3...frigate-9.0.4) (2023-06-24)
+
+### Feat
+
+- Update to 0.12.1 ([#9861](https://github.com/truecharts/charts/issues/9861))
+  
+  
+
+
 ## [frigate-9.0.3](https://github.com/truecharts/charts/compare/frigate-9.0.2...frigate-9.0.3) (2023-06-16)
 
 
@@ -88,12 +97,3 @@
 
 - hide advanced ingress options behind checbox ([#9203](https://github.com/truecharts/charts/issues/9203))
   - port to new common ([#9141](https://github.com/truecharts/charts/issues/9141))
-  
-  ### Fix
-
-- fix mistakes on questions.yaml
-  
-  
-
-
-## [frigate-6.0.2](https://github.com/truecharts/charts/compare/frigate-6.0.1...frigate-6.0.2) (2023-02-10)
