@@ -17,8 +17,9 @@ workload:
       containers:
         main:
           args:
-            - --path.procfs=/host/proc
-            - --path.sysfs=/host/sys
+            - --path.rootfs=/host
+            - --path.procfs=/hostproc
+            - --path.sysfs=/hostsys
             - --web.listen-address=0.0.0.0:{{ .Values.service.main.ports.main.port }}
             - --collector.filesystem.ignored-mount-points="^/(dev|proc|sys|var/lib/docker/.+|var/lib/kubelet/.+|var/db/system/.+|mnt/[a-zA-Z0-9-_\\.]+/ix-applications/.+)($|/)"
             - --collector.filesystem.ignored-fs-types="^(autofs|binfmt_misc|cgroup|configfs|debugfs|devpts|devtmpfs|fusectl|hugetlbfs|mqueue|overlay|proc|procfs|pstore|rpc_pipefs|securityfs|sysfs|tracefs)$"
@@ -44,18 +45,21 @@ podOptions:
 persistence:
   host:
     enabled: true
+    type: hostPath
     hostPath: /
     mountPath: /host
     readOnly: true
   proc:
     enabled: true
+    type: hostPath
     hostPath: /proc
-    mountPath: /host/proc
+    mountPath: /hostproc
     readOnly: true
   sys:
     enabled: true
+    type: hostPath
     hostPath: /sys
-    mountPath: /host/sys
+    mountPath: /hostsys
     readOnly: true
 
 metrics:
