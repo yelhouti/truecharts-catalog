@@ -89,12 +89,17 @@ questions:
                             description: rfc2136 (Advanced)
                           - value: HTTP01
                             description: HTTP01 (Experimental)
+                    - variable: http01IngressClass
+                      label: Ingress Class
+                      schema:
+                        show_if: [ [ "type", "=", "HTTP01" ] ]
+                        type: string
+                        default: 'traefik'
                     - variable: server
                       label: Server
                       description: "Server for ACME, for example: letsencrypt"
                       schema:
                         type: string
-                        show_if: [["type", "!=", "HTTP01"]]
                         default: 'Letsencrypt-Production'
                         enum:
                           - value: 'https://acme-v02.api.letsencrypt.org/directory'
@@ -120,7 +125,6 @@ questions:
                       schema:
                         type: string
                         required: true
-                        show_if: [["type", "!=", "HTTP01"]]
                         default: "something@example.com"
                     - variable: cfapikey
                       label: CloudFlare API key
