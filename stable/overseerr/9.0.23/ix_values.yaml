@@ -1,0 +1,27 @@
+image:
+  repository: tccr.io/truecharts/overseerr
+  tag: v1.33.0@sha256:7e04bca720c5aa244d282876cf892009d77b7797caea1aaa20c977614888fa1d
+  pullPolicy: IfNotPresent
+service:
+  main:
+    ports:
+      main:
+        port: 5055
+        targetPort: 5055
+persistence:
+  config:
+    enabled: true
+    mountPath: "/app/config"
+portal:
+  open:
+    enabled: true
+securityContext:
+  container:
+    readOnlyRootFilesystem: false
+workload:
+  main:
+    podSpec:
+      containers:
+        main:
+          env:
+            LOG_LEVEL: info
