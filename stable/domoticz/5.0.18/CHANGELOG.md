@@ -4,6 +4,15 @@
 
 
 
+## [domoticz-5.0.18](https://github.com/truecharts/charts/compare/domoticz-5.0.17...domoticz-5.0.18) (2023-06-26)
+
+### Chore
+
+- update container image tccr.io/truecharts/domoticz to v2023.1.20230615 ([#9916](https://github.com/truecharts/charts/issues/9916))
+  
+  
+
+
 ## [domoticz-5.0.17](https://github.com/truecharts/charts/compare/domoticz-5.0.16...domoticz-5.0.17) (2023-06-13)
 
 ### Chore
@@ -85,15 +94,6 @@
 ### Chore
 
 - update helm general non-major ([#9156](https://github.com/truecharts/charts/issues/9156))
-  
-  
-
-
-## [domoticz-5.0.8](https://github.com/truecharts/charts/compare/domoticz-5.0.7...domoticz-5.0.8) (2023-05-24)
-
-### Chore
-
-- update helm general non-major ([#9125](https://github.com/truecharts/charts/issues/9125))
   
   
 
