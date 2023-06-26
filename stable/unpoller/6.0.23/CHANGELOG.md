@@ -4,6 +4,15 @@
 
 
 
+## [unpoller-6.0.23](https://github.com/truecharts/charts/compare/unpoller-6.0.22...unpoller-6.0.23) (2023-06-26)
+
+### Chore
+
+- update container image tccr.io/truecharts/unifi-poller to v2.7.14 ([#9938](https://github.com/truecharts/charts/issues/9938))
+  
+  
+
+
 ## [unpoller-6.0.22](https://github.com/truecharts/charts/compare/unpoller-6.0.21...unpoller-6.0.22) (2023-06-13)
 
 ### Chore
@@ -88,12 +97,3 @@
 ## [unpoller-6.0.13](https://github.com/truecharts/charts/compare/unpoller-6.0.12...unpoller-6.0.13) (2023-05-22)
 
 ### Feat
-
-- Add Global Pod Options ([#9007](https://github.com/truecharts/charts/issues/9007))
-  
-  
-
-
-## [unpoller-6.0.12](https://github.com/truecharts/charts/compare/unpoller-6.0.11...unpoller-6.0.12) (2023-05-16)
-
-### Chore
