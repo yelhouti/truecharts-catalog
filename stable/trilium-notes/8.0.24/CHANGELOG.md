@@ -4,6 +4,15 @@
 
 
 
+## [trilium-notes-8.0.24](https://github.com/truecharts/charts/compare/trilium-notes-8.0.23...trilium-notes-8.0.24) (2023-06-26)
+
+### Chore
+
+- update container image tccr.io/truecharts/trilium-notes to v0.60.4 ([#9951](https://github.com/truecharts/charts/issues/9951))
+  
+  
+
+
 ## [trilium-notes-8.0.23](https://github.com/truecharts/charts/compare/trilium-notes-8.0.22...trilium-notes-8.0.23) (2023-06-13)
 
 ### Chore
@@ -85,15 +94,6 @@
 ### Chore
 
 - update helm general non-major ([#9089](https://github.com/truecharts/charts/issues/9089))
-  
-  
-
-
-## [trilium-notes-8.0.14](https://github.com/truecharts/charts/compare/trilium-notes-8.0.13...trilium-notes-8.0.14) (2023-05-22)
-
-### Feat
-
-- Add Global Pod Options ([#9007](https://github.com/truecharts/charts/issues/9007))
   
   
 
